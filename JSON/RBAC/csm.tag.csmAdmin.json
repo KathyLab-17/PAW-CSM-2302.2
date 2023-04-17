@@ -1,0 +1,13 @@
+{
+  "displayName": "PAW-CSM",
+  "Id": "tag-paw-csm",
+  "description": "Scope tag for PAW-CSM configuration artifacts.",
+  "isBuiltIn": false,
+  "assignments": [
+    {
+      "target": {
+        "groupId": "group-paw-csm-devices"
+      }
+    }
+  ]
+}

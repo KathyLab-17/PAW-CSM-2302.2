@@ -1,0 +1,20 @@
+{
+  "$schema": "./../pawintuneapp.schema.json",
+  "appType": "PS1",
+  "ruleType": "TAGFILE",
+  "returnCodeType": "DEFAULT",
+  "installExperience": "System",
+  "packageName": "Install-%appname&",
+  "packagePath": "",
+  "displayName": "%application Name",
+  "description": "",
+  "publisher": "",
+  "category": "Business",
+  "logoFile": "",
+  "coreApp": true,
+  "espApp": false,
+  "requiredgroup": "group-PAW-global-csm-apps-%appname%-user-required",
+  "availablegroup": "group-PAW-global-csm-apps-%appname%-user-available",
+  "uninstallgroup": "group-PAW-global-csm-apps-%appname%-user-uninstall",
+  "scopetag": "PAW-CSM"
+}

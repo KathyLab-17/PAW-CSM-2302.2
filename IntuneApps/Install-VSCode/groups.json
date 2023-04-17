@@ -1,0 +1,32 @@
+[  
+  {
+  "DisplayName": "PAW-CSM-Apps-vscode-User-Required",
+  "Description": "Group used to assign VS Code application.",
+  "Id": "group-paw-csm-apps-vscode-user-required",
+  "MemberRef": [],
+  "Rule": "Static",
+  "IsAssignableToRole": false,
+  "ProtectedGroup": true,
+  "IsAppGroup": false
+},
+{
+  "DisplayName": "PAW-CSM-Apps-vscode-User-Available",
+  "Description": "Group used to assign VS Code application.",
+  "Id": "group-paw-csm-apps-vscode-user-available",
+  "MemberRef": ["paw-csm-users"],
+  "Rule": "Static",
+  "IsAssignableToRole": false,
+  "ProtectedGroup": true,
+  "IsAppGroup": false
+},
+{
+  "DisplayName": "PAW-CSM-Apps-vscode-User-Uninstall",
+  "Description": "Group used to assign VS Code application.",
+  "Id": "group-paw-csm-apps-vscode-user-uninstall",
+  "MemberRef": [],
+  "Rule": "Static",
+  "IsAssignableToRole": false,
+  "ProtectedGroup": true,
+  "IsAppGroup": false
+}
+]

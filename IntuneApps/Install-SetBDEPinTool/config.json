@@ -1,0 +1,20 @@
+{
+  "$schema": "./../pawintuneapp.schema.json",
+  "appType": "PS1",
+  "ruleType": "TAGFILE",
+  "returnCodeType": "DEFAULT",
+  "installExperience": "System",
+  "packageName": "Install-SetBDEPinTool",
+  "packagePath": "",
+  "displayName": "MCS PAW-CSM BitLocker Pin Tool",
+  "description": "Script to allow a standard user to set a BitLocker PIN",
+  "publisher": "Microsoft Consulting Services",
+  "category": "Business",
+  "logoFile": "BDE_Logo.jpg",
+  "coreApp": true,
+  "espApp": true,
+  "requiredgroup": "group-paw-global-apps-bitlocker-pin-tool-device-required",
+  "availablegroup": "group-paw-global-apps-bitlocker-pin-tool-device-available",
+  "uninstallgroup": "group-paw-global-apps-bitlocker-pin-tool-device-uninstall",
+  "scopetag": "PAW-CSM"
+}

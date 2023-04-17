@@ -1,0 +1,268 @@
+[
+  {
+    "packageName": "3D Viewer",
+    "groupIdToAdd": "group-paw-csm-users",
+    "assignmentType": "uninstall",
+    "appType": "Store",
+    "licenseType": "User"
+  },
+  {
+    "packageName": "Company Portal",
+    "groupIdToAdd": "group-paw-global-apps-company-portal-device-required",
+    "assignmentType": "required",
+    "appType": "Store",
+    "licenseType": "Device"
+  },
+  {
+    "packageName": "Excel Mobile",
+    "groupIdToAdd": "group-paw-csm-users",
+    "assignmentType": "uninstall",
+    "appType": "Store",
+    "licenseType": "User"
+  },
+  {
+    "packageName": "Mail and Calendar",
+    "groupIdToAdd": "group-paw-csm-users",
+    "assignmentType": "uninstall",
+    "appType": "Store",
+    "licenseType": "User"
+  },
+  {
+    "packageName": "Feedback Hub",
+    "groupIdToAdd": "group-paw-csm-users",
+    "assignmentType": "uninstall",
+    "appType": "Store",
+    "licenseType": "User"
+  },
+  {
+    "packageName": "Windows Media Player",
+    "groupIdToAdd": "group-paw-csm-users",
+    "assignmentType": "uninstall",
+    "appType": "Store",
+    "licenseType": "User"
+  },
+  {
+    "packageName": "Microsoft Messaging",
+    "groupIdToAdd": "group-paw-csm-users",
+    "assignmentType": "uninstall",
+    "appType": "Store",
+    "licenseType": "User"
+  },
+  {
+    "packageName": "Microsoft News",
+    "groupIdToAdd": "group-paw-csm-users",
+    "assignmentType": "uninstall",
+    "appType": "Store",
+    "licenseType": "User"
+  },
+  {
+    "packageName": "Microsoft Photos",
+    "groupIdToAdd": "group-paw-csm-users",
+    "assignmentType": "uninstall",
+    "appType": "Store",
+    "licenseType": "User"
+  },
+  {
+    "packageName": "Microsoft Solitaire Collection",
+    "groupIdToAdd": "group-paw-csm-users",
+    "assignmentType": "uninstall",
+    "appType": "Store",
+    "licenseType": "User"
+  },
+  {
+    "packageName": "Microsoft Sticky Notes",
+    "groupIdToAdd": "group-paw-csm-users",
+    "assignmentType": "uninstall",
+    "appType": "Store",
+    "licenseType": "User"
+  },
+  {
+    "packageName": "Microsoft Tips",
+    "groupIdToAdd": "group-paw-csm-users",
+    "assignmentType": "uninstall",
+    "appType": "Store",
+    "licenseType": "User"
+  },
+  {
+    "packageName": "Microsoft Wireless Display Adapter",
+    "groupIdToAdd": "group-paw-csm-users",
+    "assignmentType": "uninstall",
+    "appType": "Store",
+    "licenseType": "User"
+  },
+  {
+    "packageName": "Mixed Reality Portal",
+    "groupIdToAdd": "group-paw-csm-users",
+    "assignmentType": "uninstall",
+    "appType": "Store",
+    "licenseType": "User"
+  },
+  {
+    "packageName": "Mobile Plans",
+    "groupIdToAdd": "group-paw-csm-users",
+    "assignmentType": "uninstall",
+    "appType": "Store",
+    "licenseType": "User"
+  },
+  {
+    "packageName": "Movies %26 TV",
+    "groupIdToAdd": "group-paw-csm-users",
+    "assignmentType": "uninstall",
+    "appType": "Store",
+    "licenseType": "User"
+  },
+  {
+    "packageName": "MSN Weather",
+    "groupIdToAdd": "group-paw-csm-users",
+    "assignmentType": "uninstall",
+    "appType": "Store",
+    "licenseType": "User"
+  },
+  {
+    "packageName": "OneDrive",
+    "groupIdToAdd": "group-paw-csm-users",
+    "assignmentType": "uninstall",
+    "appType": "Store",
+    "licenseType": "User"
+  },
+  {
+    "packageName": "OneNote for Windows 10",
+    "groupIdToAdd": "group-paw-csm-users",
+    "assignmentType": "uninstall",
+    "appType": "Store",
+    "licenseType": "User"
+  },
+  {
+    "packageName": "Paint 3D",
+    "groupIdToAdd": "group-paw-csm-users",
+    "assignmentType": "uninstall",
+    "appType": "Store",
+    "licenseType": "User"
+  },
+  {
+    "packageName": "PowerPoint Mobile",
+    "groupIdToAdd": "group-paw-csm-users",
+    "assignmentType": "uninstall",
+    "appType": "Store",
+    "licenseType": "User"
+  },
+  {
+    "packageName": "Print 3D",
+    "groupIdToAdd": "group-paw-csm-users",
+    "assignmentType": "uninstall",
+    "appType": "Store",
+    "licenseType": "User"
+  },
+  {
+    "packageName": "Skype",
+    "groupIdToAdd": "group-paw-csm-users",
+    "assignmentType": "uninstall",
+    "appType": "Store",
+    "licenseType": "User"
+  },
+  {
+    "packageName": "Snipping Tool",
+    "groupIdToAdd": "group-paw-csm-users",
+    "assignmentType": "uninstall",
+    "appType": "Store",
+    "licenseType": "User"
+  },
+  {
+    "packageName": "Surface",
+    "groupIdToAdd": "group-paw-csm-users",
+    "assignmentType": "uninstall",
+    "appType": "Store",
+    "licenseType": "User"
+  },
+  {
+    "packageName": "Sway",
+    "groupIdToAdd": "group-paw-csm-users",
+    "assignmentType": "uninstall",
+    "appType": "Store",
+    "licenseType": "User"
+  },
+  {
+    "packageName": "Windows Clock",
+    "groupIdToAdd": "group-paw-csm-users",
+    "assignmentType": "uninstall",
+    "appType": "Store",
+    "licenseType": "User"
+  },
+  {
+    "packageName": "Windows Calculator",
+    "groupIdToAdd": "group-paw-csm-users",
+    "assignmentType": "uninstall",
+    "appType": "Store",
+    "licenseType": "User"
+  },
+  {
+    "packageName": "Windows Camera",
+    "groupIdToAdd": "group-paw-csm-users",
+    "assignmentType": "uninstall",
+    "appType": "Store",
+    "licenseType": "User"
+  },
+  {
+    "packageName": "Windows Maps",
+    "groupIdToAdd": "group-paw-csm-users",
+    "assignmentType": "uninstall",
+    "appType": "Store",
+    "licenseType": "User"
+  },
+  {
+    "packageName": "Windows Sound Recorder",
+    "groupIdToAdd": "group-paw-csm-users",
+    "assignmentType": "uninstall",
+    "appType": "Store",
+    "licenseType": "User"
+  },
+  {
+    "packageName": "Word Mobile",
+    "groupIdToAdd": "group-paw-csm-users",
+    "assignmentType": "uninstall",
+    "appType": "Store",
+    "licenseType": "User"    
+  },
+  {
+    "packageName": "Microsoft Whiteboard",
+    "groupIdToAdd": "group-paw-csm-users",
+    "assignmentType": "uninstall",
+    "appType": "Store",
+    "licenseType": "User"
+  },
+  {
+    "packageName": "Xbox",
+    "groupIdToAdd": "group-paw-csm-users",
+    "assignmentType": "uninstall",
+    "appType": "Store",
+    "licenseType": "User"
+  },
+  {
+    "packageName": "Xbox Console Companion",
+    "groupIdToAdd": "group-paw-csm-users",
+    "assignmentType": "uninstall",
+    "appType": "Store",
+    "licenseType": "User"
+  },
+  {
+    "packageName": "Xbox Game Bar",
+    "groupIdToAdd": "group-paw-csm-users",
+    "assignmentType": "uninstall",
+    "appType": "Store",
+    "licenseType": "User"
+  },
+  {
+    "packageName": "Phone Link",
+    "groupIdToAdd": "group-paw-csm-users",
+    "assignmentType": "uninstall",
+    "appType": "Store",
+    "licenseType": "User"
+  },
+  {
+    "packageName": "Microsoft Remote Desktop",
+    "groupIdToAdd": "group-paw-csm-users",
+    "assignmentType": "available",
+    "appType": "Store",
+    "licenseType": "User"
+  }
+]

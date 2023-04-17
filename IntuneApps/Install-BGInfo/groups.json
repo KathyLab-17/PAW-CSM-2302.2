@@ -1,0 +1,32 @@
+[  
+  {
+    "DisplayName": "PAW-Global-Apps-BGInfo-Device-Required",
+    "Description": "Group used to assign BGInfo app.",
+    "Id": "group-paw-global-apps-bginfo-device-required",
+    "MemberRef": ["paw-csm-devices"],
+    "Rule": "Static",
+    "IsAssignableToRole": false,
+    "ProtectedGroup": true,
+    "IsAppGroup": false
+  },
+  {
+    "DisplayName": "PAW-Global-Apps-BGInfo-Device-Available",
+    "Description": "Group used to assign BGInfo app.",
+    "Id": "group-paw-global-apps-bginfo-device-available",
+    "MemberRef": [],
+    "Rule": "Static",
+    "IsAssignableToRole": false,
+    "ProtectedGroup": true,
+    "IsAppGroup": false
+  },
+  {
+    "DisplayName": "PAW-Global-Apps-BGInfo-Device-Uninstall",
+    "Description": "Group used to assign BGInfo app.",
+    "Id": "group-paw-global-apps-bginfo-device-uninstall",
+    "MemberRef": [],
+    "Rule": "Static",
+    "IsAssignableToRole": false,
+    "ProtectedGroup": true,
+    "IsAppGroup": false
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "displayName": "EUD",
+  "Id": "tag-eud",
+  "description": "Scope tag for EUD configuration artifacts.",
+  "isBuiltIn": false,
+  "assignments": [
+    {
+      "target": {
+        "groupId": "group-eud-devices"
+      }
+    }
+  ]
+}

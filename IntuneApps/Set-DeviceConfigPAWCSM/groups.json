@@ -1,0 +1,32 @@
+[  
+  {
+    "DisplayName": "PAW-Global-Apps-Set-Device-Config-Device-Required",
+    "Description": "Group used to assign Device Config app.",
+    "Id": "group-paw-global-apps-set-device-config-device-required",
+    "MemberRef": ["paw-csm-devices"],
+    "Rule": "Static",
+    "IsAssignableToRole": false,
+    "ProtectedGroup": true,
+    "IsAppGroup": true
+  },
+  {
+    "DisplayName": "PAW-Global-Apps-Set-Device-Config-Device-Available",
+    "Description": "Group used to assign Device Config app.",
+    "Id": "group-paw-global-apps-set-device-config-device-available",
+    "MemberRef": [],
+    "Rule": "Static",
+    "IsAssignableToRole": false,
+    "ProtectedGroup": true,
+    "IsAppGroup": true
+  },
+  {
+    "DisplayName": "PAW-Global-Apps-Set-Device-Config-Device-Uninstall",
+    "Description": "Group used to assign Device Config app.",
+    "Id": "group-paw-global-apps-set-device-config-device-uninstall",
+    "MemberRef": [],
+    "Rule": "Static",
+    "IsAssignableToRole": false,
+    "ProtectedGroup": true,
+    "IsAppGroup": true
+  }
+]

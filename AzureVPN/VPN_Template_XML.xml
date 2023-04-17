@@ -1,0 +1,15 @@
+<VPNProfile>
+   <!--<EdpModeId>corp.contoso.com</EdpModeId>-->
+   <RememberCredentials>true</RememberCredentials>
+   <AlwaysOn>false</AlwaysOn>
+   <TrustedNetworkDetection></TrustedNetworkDetection>
+   <DeviceTunnel>false</DeviceTunnel>
+   <RegisterDNS>false</RegisterDNS>
+   <PluginProfile>
+     <ServerUrlList>[PASTE FQDN HERE]</ServerUrlList> 
+     <CustomConfiguration>
+[PASTE CONFIG TXT HERE]
+     </CustomConfiguration>
+     <PluginPackageFamilyName>Microsoft.AzureVpn_8wekyb3d8bbwe</PluginPackageFamilyName>
+   </PluginProfile>
+ </VPNProfile>

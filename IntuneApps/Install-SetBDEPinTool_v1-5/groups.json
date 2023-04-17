@@ -1,0 +1,34 @@
+[
+  {
+    "DisplayName": "PAW-Global-Apps-BitLocker-PIN-Tool1-5-Device-Required",
+    "Description": "Group used to assign BitLocker PIN Tool app.",
+    "Id": "group-paw-global-apps-bitlocker-pin-tool1-5-device-required",
+    "MemberRef": [
+      "paw-csm-devices"
+    ],
+    "Rule": "Static",
+    "IsAssignableToRole": false,
+    "ProtectedGroup": true,
+    "IsAppGroup": false
+  },
+  {
+    "DisplayName": "PAW-Global-Apps-BitLocker-PIN-Tool1-5-Device-Available",
+    "Description": "Group used to assign BitLocker PIN Tool app.",
+    "Id": "group-paw-global-apps-bitlocker-pin-tool1-5-device-available",
+    "MemberRef": [],
+    "Rule": "Static",
+    "IsAssignableToRole": false,
+    "ProtectedGroup": true,
+    "IsAppGroup": false
+  },
+  {
+    "DisplayName": "PAW-Global-Apps-BitLocker-PIN-Tool1-5-Device-Uninstall",
+    "Description": "Group used to assign BitLocker PIN Tool app.",
+    "Id": "group-paw-global-apps-bitlocker-pin-tool1-5-device-uninstall",
+    "MemberRef": [],
+    "Rule": "Static",
+    "IsAssignableToRole": false,
+    "ProtectedGroup": true,
+    "IsAppGroup": false
+  }
+]

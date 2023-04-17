@@ -1,0 +1,20 @@
+{
+  "$schema": "./../pawintuneapp.schema.json",
+  "appType": "PS1",
+  "ruleType": "TAGFILE",
+  "returnCodeType": "DEFAULT",
+  "installExperience": "System",
+  "packageName": "Install-MMAAgent",
+  "packagePath": "",
+  "displayName": "Microsoft Monitoring Agent",
+  "description": "In order to monitor and manage virtual machines or physical computers in your local datacenter or other cloud environment with Azure Monitor, you need to deploy the Log Analytics agent (also referred to as the Microsoft Monitoring Agent (MMA)) and configure it to report to one or more Log Analytics workspaces",
+  "publisher": "Microsoft Corporation",
+  "category": "Business",
+  "logoFile": "mslogo.png",
+  "coreApp": true,
+  "espApp": false,
+  "requiredgroup": "paw-csm-apps-microsoft-mmaagent-user-required",
+  "availablegroup": "paw-csm-apps-microsoft-mmaagent-user-available",
+  "uninstallgroup": "paw-csm-apps-microsoft-mmaagent-user-uninstall",
+  "scopetag": "PAW-CSM"
+}

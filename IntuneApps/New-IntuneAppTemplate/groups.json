@@ -1,0 +1,32 @@
+[  
+  {
+  "DisplayName": "PAW-CSM-Apps-%appname%-User-Required",
+  "Description": "Group used to assign %App Name%.",
+  "Id": "group-paw-csm-apps-%appname%-user-required",
+  "MemberRef": [],
+  "Rule": "Static",
+  "IsAssignableToRole": false,
+  "ProtectedGroup": true,
+  "IsAppGroup": false
+},
+{
+  "DisplayName": "PAW-CSM-Apps-%appname%-User-Available",
+  "Description": "Group used to assign %App Name%.",
+  "Id": "group-paw-csm-apps-%appname%-user-available",
+  "MemberRef": ["paw-csm-users"],
+  "Rule": "Static",
+  "IsAssignableToRole": false,
+  "ProtectedGroup": true,
+  "IsAppGroup": false
+},
+{
+  "DisplayName": "PAW-CSM-Apps-%appname%-User-Uninstall",
+  "Description": "Group used to assign %App Name%.",
+  "Id": "group-paw-csm-apps-%appname%-user-uninstall",
+  "MemberRef": [],
+  "Rule": "Static",
+  "IsAssignableToRole": false,
+  "ProtectedGroup": true,
+  "IsAppGroup": false
+}
+]

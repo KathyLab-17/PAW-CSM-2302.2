@@ -1,0 +1,46 @@
+[
+  {
+    "DisplayName": "Customer-PAW-CSM-Intune-Admin",
+    "Description": "Group used to manage Intune and PAW CMS device configurations",
+    "Id": "group-customer-paw-csm-intune-admin",
+    "MemberRef": [],
+    "Rule": "Static",
+    "IsAssignableToRole": true,
+    "ProtectedGroup": true,
+    "IsAppGroup": false,
+    "Notes": "Typical Role Owner: Specific Trusted Individuals (Used instead of Global Admin)"
+  },
+  {
+    "DisplayName": "PAW-CSM-Intune-Admin-Scope",
+    "Description": "Group used to define the scope of Customer-PAW-CSM-Intune-Admin Intune role",
+    "Id": "group-paw-csm-intune-admin-scope",
+    "MemberRef": [],
+    "Rule": "Static",
+    "IsAssignableToRole": true,
+    "ProtectedGroup": true,
+    "IsAppGroup": false,
+    "Notes": "Scope group is not the primary option to limit the scope of an Intune admin role"
+  },
+  {
+    "DisplayName": "Customer-EUD-Intune-Admin",
+    "Description": "Group used to manage Intune and EUD device configurations",
+    "Id": "group-customer-eud-intune-admin",
+    "MemberRef": [],
+    "Rule": "Static",
+    "IsAssignableToRole": true,
+    "ProtectedGroup": true,
+    "IsAppGroup": false,
+    "Notes": "Typical Role Owner: Specific Trusted Individuals (Used instead of Global Admin)"
+  },
+  {
+    "DisplayName": "EUD-Intune-Admin-Scope",
+    "Description": "Group used to define the scope of Customer-EUD-Intune-Admin Intune role",
+    "Id": "group-eud-intune-admin-scope",
+    "MemberRef": [],
+    "Rule": "Static",
+    "IsAssignableToRole": true,
+    "ProtectedGroup": true,
+    "IsAppGroup": false,
+    "Notes": "Scope group is not the primary option to limit the scope of an Intune admin role"
+  }
+]

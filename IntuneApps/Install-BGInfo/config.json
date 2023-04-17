@@ -1,0 +1,20 @@
+{
+  "$schema": "./../pawintuneapp.schema.json",
+  "appType": "PS1",
+  "ruleType": "TAGFILE",
+  "returnCodeType": "DEFAULT",
+  "installExperience": "System",
+  "packageName": "Install-BGInfo",
+  "packagePath": "",
+  "displayName": "MCS PAW-CSM Install BGInfo",
+  "description": "BG Info configuration for PAW-CSM devices",
+  "publisher": "Microsoft Consulting Services",
+  "category": "Business",
+  "logoFile": "BGInfo.jpg",
+  "coreApp": true,
+  "espApp": true,
+  "requiredgroup": "group-paw-global-apps-bginfo-device-required",
+  "availablegroup": "group-paw-global-apps-bginfo-device-available",
+  "uninstallgroup": "group-paw-global-apps-bginfo-device-uninstall",
+  "scopetag": "PAW-CSM"
+}

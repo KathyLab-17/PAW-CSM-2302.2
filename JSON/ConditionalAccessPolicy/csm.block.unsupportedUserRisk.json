@@ -1,0 +1,33 @@
+{
+  "displayName": "PAW-Global-{PAWCSMVersion}-Block-Unsupported-User-Risk",
+  "state": "enabledForReportingButNotEnforced",
+  "sessionControls": null,
+  "conditions": {
+    "userRiskLevels": ["high"],
+    "signInRiskLevels": [],
+    "clientAppTypes": ["all"],
+    "platforms": null,
+    "locations": null,
+    "deviceStates": null,
+    "devices": null,
+    "applications": {
+      "includeApplications": ["All"],
+      "excludeApplications": [],
+      "includeUserActions": []
+    },
+    "users": {
+      "includeUsers": [],
+      "excludeUsers": [],
+      "includeGroups": ["group-paw-global-users"],
+      "excludeGroups": ["group-paw-global-breakglass-accounts"],
+      "includeRoles": [],
+      "excludeRoles": []
+    }
+  },
+  "grantControls": {
+    "operator": "AND",
+    "builtInControls": ["mfa", "passwordChange"],
+    "customAuthenticationFactors": [],
+    "termsOfUse": []
+  }
+}

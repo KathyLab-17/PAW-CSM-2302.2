@@ -1,0 +1,34 @@
+{
+  "@odata.type": "#microsoft.graph.azureADWindowsAutopilotDeploymentProfile",
+  "displayName": "PAW CSM {PAWCSMVersion} Autopilot Profile",
+  "description": "",
+  "language": "os-default",
+  "enrollmentStatusScreenSettings": null,
+  "extractHardwareHash": true,
+  "deviceNameTemplate": "PAWCSM-%SERIAL%",
+  "deviceType": "windowsPc",
+  "enableWhiteGlove": false,
+  "roleScopeTagIds": ["{tag-paw-csm}"],
+  "outOfBoxExperienceSettings": {
+    "hidePrivacySettings": true,
+    "hideEULA": true,
+    "userType": "standard",
+    "deviceUsageType": "singleUser",
+    "skipKeyboardSelectionPage": true,
+    "hideEscapeLink": true
+  },
+  "assignments@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/windowsAutopilotDeploymentProfiles(\u002784e80c02-5078-46b6-97f8-595eca600804\u0027)/microsoft.graph.azureADWindowsAutopilotDeploymentProfile/assignments",
+  "assignments": [
+    {
+      "id": "84e80c02-5078-46b6-97f8-595eca600804_1787cd4f-c922-4222-8a81-489fa0e6ed6f_0",
+      "source": "direct",
+      "sourceId": "84e80c02-5078-46b6-97f8-595eca600804",
+      "target": {
+        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+        "deviceAndAppManagementAssignmentFilterId": null,
+        "deviceAndAppManagementAssignmentFilterType": "none",
+        "groupId": "group-paw-csm-devices"
+      }
+    }
+  ]
+}

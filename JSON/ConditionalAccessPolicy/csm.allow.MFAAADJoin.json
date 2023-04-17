@@ -1,0 +1,34 @@
+{
+  "displayName": "PAW-Global-{PAWCSMVersion}-Allow-Require-MFA-to-Azure-AD-Join",
+  "state": "enabledForReportingButNotEnforced",
+  "sessionControls": null,
+  "conditions": {
+    "userRiskLevels": [],
+    "signInRiskLevels": [],
+    "clientAppTypes": ["all"],
+    "platforms": null,
+    "locations": null,
+    "deviceStates": null,
+    "devices": null,
+    "applications": {
+      "includeApplications": [],
+      "excludeApplications": [],
+      "includeUserActions": ["urn:user:registerdevice"],
+      "includeAuthenticationContextClassReferences": []
+    },
+    "users": {
+      "includeUsers": [],
+      "excludeUsers": [],
+      "includeGroups": ["group-paw-global-users"],
+      "excludeGroups": ["group-paw-global-breakglass-accounts"],
+      "includeRoles": [],
+      "excludeRoles": []
+    }
+  },
+  "grantControls": {
+    "operator": "OR",
+    "builtInControls": ["mfa"],
+    "customAuthenticationFactors": [],
+    "termsOfUse": []
+  }
+}

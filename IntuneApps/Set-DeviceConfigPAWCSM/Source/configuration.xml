@@ -1,0 +1,13 @@
+<Configuration>
+
+    <!--Uninstall complete Office 365-->
+
+    <Display Level="None" AcceptEULA="TRUE" />
+
+    <Remove All="TRUE" />
+	
+	<Property Value="TRUE" Name="FORCEAPPSHUTDOWN"/>
+	
+	<RemoveMSI/>
+
+</Configuration>

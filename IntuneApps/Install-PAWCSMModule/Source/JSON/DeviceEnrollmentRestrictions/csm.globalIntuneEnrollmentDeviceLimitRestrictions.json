@@ -1,0 +1,22 @@
+{
+  "@odata.type": "#microsoft.graph.deviceEnrollmentLimitConfiguration",
+  "displayName": "PAW-Global-{PAWCSMVersion}-Device-Limit-Restrictions",
+  "description": "",
+  "version": 3,
+  "roleScopeTagIds": ["{tag-paw-csm}"],
+  "limit": 5,
+  "assignments@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceEnrollmentConfigurations(\u00279801e62b-23ce-464b-9d43-7199342c6d19_Limit\u0027)/microsoft.graph.deviceEnrollmentLimitConfiguration/microsoft.graph.deviceEnrollmentPlatformRestrictionsConfiguration/microsoft.graph.deviceEnrollmentWindowsHelloForBusinessConfiguration/microsoft.graph.windows10EnrollmentCompletionPageConfiguration/microsoft.graph.deviceEnrollmentLimitConfiguration/assignments",
+  "assignments": [
+    {
+      "id": "9801e62b-23ce-464b-9d43-7199342c6d19_de94fc7c-af03-4bd7-8482-84380ff33247_9801e62b-23ce-464b-9d43-7199342c6d19",
+      "source": "direct",
+      "sourceId": "9801e62b-23ce-464b-9d43-7199342c6d19",
+      "target": {
+        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+        "deviceAndAppManagementAssignmentFilterId": null,
+        "deviceAndAppManagementAssignmentFilterType": "none",
+        "groupId": "group-paw-global-users"
+      }
+    }
+  ]
+}

@@ -1,0 +1,279 @@
+[
+  {
+    "DisplayName": "PAW-Global-Break-Glass-Accounts",
+    "Description": "Global group for emergency break glass accounts.",
+    "Id": "group-paw-global-breakglass-accounts",
+    "MemberRef": ["user-azure-break-glass-1", "user-azure-break-glass-2"],
+    "Rule": "Static",
+    "IsAssignableToRole": true,
+    "ProtectedGroup": true,
+    "IsAppGroup": false
+  },
+  {
+    "DisplayName": "PAW-Global-Users",
+    "Description": "Global group to represent all PAW users.",
+    "Id": "group-paw-global-users",
+    "MemberRef": ["group-paw-csm-users"],
+    "Rule": "Static",
+    "IsAssignableToRole": false,
+    "ProtectedGroup": true,
+    "IsAppGroup": false
+  },
+  {
+    "DisplayName": "PAW-Global-Devices",
+    "Description": "Global group to represent all PAW devices.",
+    "Id": "group-paw-global-devices",
+    "MemberRef": ["group-paw-csm-devices"],
+    "Rule": "Static",
+    "IsAssignableToRole": false,
+    "ProtectedGroup": true,
+    "IsAppGroup": false
+  },
+  {
+    "DisplayName": "PAW-CSM-Users",
+    "Description": "Group for all PAW CSM privileged users.",
+    "Id": "group-paw-csm-users",
+    "MemberRef": [],
+    "Rule": "Static",
+    "IsAssignableToRole": true,
+    "ProtectedGroup": true,
+    "IsAppGroup": false
+  },
+  {
+    "DisplayName": "PAW-CSM-Devices",
+    "Description": "Group for all PAW CSM devices.",
+    "Id": "group-paw-csm-devices",
+    "MemberRef": [],
+    "Rule": "Static",
+    "IsAssignableToRole": false,
+    "ProtectedGroup": true,
+    "IsAppGroup": false
+  },
+  {
+    "DisplayName": "PAW-CSM-Apps-PowerShell-Modules-User-Required",
+    "Description": "Group used to assign Cloud Mgmt PS Modules.",
+    "Id": "group-paw-csm-apps-powershell-modules-user-required",
+    "MemberRef": [],
+    "Rule": "Static",
+    "IsAssignableToRole": false,
+    "ProtectedGroup": true,
+    "IsAppGroup": true
+  },
+  {
+    "DisplayName": "PAW-CSM-Apps-PowerShell-Modules-User-Available",
+    "Description": "Group used to assign Cloud Mgmt PS Modules.",
+    "Id": "group-paw-csm-apps-powershell-modules-user-available",
+    "MemberRef": ["group-paw-csm-users"],
+    "Rule": "Static",
+    "IsAssignableToRole": false,
+    "ProtectedGroup": true,
+    "IsAppGroup": true
+  },
+  {
+    "DisplayName": "PAW-CSM-Apps-PowerShell-Modules-User-Uninstall",
+    "Description": "Group used to assign Cloud Mgmt PS Modules.",
+    "Id": "group-paw-csm-apps-powershell-modules-user-uninstall",
+    "MemberRef": [],
+    "Rule": "Static",
+    "IsAssignableToRole": false,
+    "ProtectedGroup": true,
+    "IsAppGroup": true
+  },
+  {
+    "DisplayName": "PAW-CSM-Local-Admin-Support",
+    "Description": "This group is used for local administration of PAW-CSM devices.",
+    "Id": "group-paw-csm-local-admin-support",
+    "MemberRef": [],
+    "Rule": "Static",
+    "IsAssignableToRole": true,
+    "ProtectedGroup": true,
+    "IsAppGroup": false,
+    "Notes": "This group is added to the local admin group of PAW devices"
+  },
+  {
+    "DisplayName": "PAW-Global-Software-Updates-Win10-Update-Ring-Broad",
+    "Description": "Group used assign update policy",
+    "Id": "group-paw-global-software-updates-win10-update-ring-broad",
+    "MemberRef": ["group-paw-csm-devices"],
+    "Rule": "Static",
+    "IsAssignableToRole": false,
+    "ProtectedGroup": true,
+    "IsAppGroup": false,
+    "Notes": "This group is used in device configuration policies"
+  },
+  {
+    "DisplayName": "PAW-Global-Win10-Local-Group-Memberships-Exclude",
+    "Description": "Group used to exclude devices from Local Group Memberships policies",
+    "Id": "group-paw-csm-win10-local-group-memberships-csp-exclude",
+    "MemberRef": [],
+    "Rule": "Static",
+    "IsAssignableToRole": false,
+    "ProtectedGroup": true,
+    "IsAppGroup": false,
+    "Notes": "This group is used in device local group membership policies"
+  },
+  {
+    "DisplayName": "PAW-Global-Win10-AppLocker-CSP-Exclude",
+    "Description": "Group used to exclude devices from App Locker policies",
+    "Id": "group-paw-global-win10-applocker-csp-exclude",
+    "MemberRef": [],
+    "Rule": "Static",
+    "IsAssignableToRole": false,
+    "ProtectedGroup": true,
+    "IsAppGroup": false,
+    "Notes": "This group is used in device configuration policies"
+  },
+  {
+    "DisplayName": "PAW-Global-Win10-MDE-Device-Guard-CSP-Exclude",
+    "Description": "Group used to exclude devices from Device Guard policies",
+    "Id": "group-paw-global-win10-mde-device-guard-csp-exclude",
+    "MemberRef": [],
+    "Rule": "Static",
+    "IsAssignableToRole": false,
+    "ProtectedGroup": true,
+    "IsAppGroup": false,
+    "Notes": "This group is used in device configuration policies"
+  },
+  {
+    "DisplayName": "PAW-Global-Win10-Proxy-Device-Restrictions-UI-Exclude",
+    "Description": "Group used to exclude devices from blackhole proxy policies",
+    "Id": "group-paw-global-win10-proxy-device-restrictions-ui-exclude",
+    "MemberRef": [],
+    "Rule": "Static",
+    "IsAssignableToRole": false,
+    "ProtectedGroup": true,
+    "IsAppGroup": false,
+    "Notes": "This group is used in device configuration policies"
+  },
+  {
+    "DisplayName": "PAW-Global-Win10-System-Hardening-Device-Exclude",
+    "Description": "Group used to exclude devices from system hardening policies",
+    "Id": "group-paw-global-win10-system-hardening-device-exclude",
+    "MemberRef": [],
+    "Rule": "Static",
+    "IsAssignableToRole": false,
+    "ProtectedGroup": true,
+    "IsAppGroup": false,
+    "Notes": "This group is used in device settings catalog policies"
+  },
+  {
+    "DisplayName": "PAW-Global-Win10-MS-Edge-Hardening-Exclude",
+    "Description": "Group used to exclude devices from blackhole proxy policies",
+    "Id": "group-paw-global-win10-ms-edge-hardening-exclude",
+    "MemberRef": [],
+    "Rule": "Static",
+    "IsAssignableToRole": false,
+    "ProtectedGroup": true,
+    "IsAppGroup": false,
+    "Notes": "This group is used in device settings catalog policies"
+  },
+  {
+    "DisplayName": "PAW-Global-Win10-OS-Hardening-Device-Policy-UI-Exclude",
+    "Description": "Group used to exclude devices from device restriction policies",
+    "Id": "group-paw-global-win10-os-hardening-device-policy-ui-exclude",
+    "MemberRef": [],
+    "Rule": "Static",
+    "IsAssignableToRole": false,
+    "ProtectedGroup": true,
+    "IsAppGroup": false,
+    "Notes": "This group is used in device configuration policies"
+  },
+  {
+    "DisplayName": "PAW-CSM-Devices-Allow-Removable-CD-DVD-BR",
+    "Description": "Group used to exclude devices from removable media policies",
+    "Id": "group-paw-csm-devices-allow-removable-cd-dvd-br",
+    "MemberRef": [],
+    "Rule": "Static",
+    "IsAssignableToRole": false,
+    "ProtectedGroup": true,
+    "IsAppGroup": false,
+    "Notes": "This group is used in device configuration policies"
+  },
+  {
+    "DisplayName": "PAW-CSM-Devices-Allow-Removable-Media-HDD-and-Thumb",
+    "Description": "Group used to exclude devices from removable media policies",
+    "Id": "group-paw-csm-devices-allow-removable-media-hdd-and-thumb",
+    "MemberRef": [],
+    "Rule": "Static",
+    "IsAssignableToRole": false,
+    "ProtectedGroup": true,
+    "IsAppGroup": false,
+    "Notes": "This group is used in device configuration policies"
+  },
+  {
+    "DisplayName": "Customer Org Auditor",
+    "Description": "Group used by organizational Auditors to review logs and configurations",
+    "Id": "group-customer-org-auditor",
+    "MemberRef": [],
+    "Rule": "Static",
+    "IsAssignableToRole": true,
+    "ProtectedGroup": true,
+    "IsAppGroup": false,
+    "Notes": "Typical Role Owner: Customer Org Auditor Security, Compliance and Governance Teams Global Reader + Reports Reader + Read Only Operator"
+  },
+  {
+    "DisplayName": "PAW Admin",
+    "Description": "Group used to manage Intune and PAW CMS device configurations",
+    "Id": "group-paw-admin",
+    "MemberRef": [],
+    "Rule": "Static",
+    "IsAssignableToRole": true,
+    "ProtectedGroup": true,
+    "IsAppGroup": false,
+    "Notes": "Typical Role Owner: Specific Trusted Individuals (Used instead of Global Admin)"
+  },
+  {
+    "DisplayName": "PAW Operator",
+    "Description": "Group used to Manage PAW CSM devices",
+    "Id": "group-paw-operator",
+    "MemberRef": [],
+    "Rule": "Static",
+    "IsAssignableToRole": true,
+    "ProtectedGroup": true,
+    "IsAppGroup": false,
+    "Notes": "Typical Role Owner: Desktop Support Team (ideally a designated subset)"
+  },
+  {
+    "DisplayName": "Customer Org Security Admin",
+    "Description": "Group used to Access Intune as a security admin",
+    "Id": "group-customer-org-security-admin",
+    "MemberRef": [],
+    "Rule": "Static",
+    "IsAssignableToRole": true,
+    "ProtectedGroup": true,
+    "IsAppGroup": false,
+    "Notes": "Typical Role Owner: Security Operations Team"
+  },
+  {
+    "DisplayName": "Customer Org Privileged Role Admin",
+    "Description": "Group used to manage Privileged roles",
+    "Id": "group-customer-org-privileged-role-admin",
+    "MemberRef": [],
+    "Rule": "Static",
+    "IsAssignableToRole": true,
+    "ProtectedGroup": true,
+    "IsAppGroup": false,
+    "Notes": "Typical Role Owner: Identity Team"
+  },
+  {
+    "DisplayName": "Customer Org Global Admin",
+    "Description": "Group used to exclude devices from removable media policies",
+    "Id": "group-customer-org-global-admin",
+    "MemberRef": [],
+    "Rule": "Static",
+    "IsAssignableToRole": true,
+    "ProtectedGroup": true,
+    "IsAppGroup": false,
+    "Notes": "Typical Role Owner: Specific Trusted Individuals and Break Glass Accounts (ideally <5)"
+  },
+  {
+    "DisplayName": "EUD-Devices",
+    "Description": "Group for all EUD devices.",
+    "Id": "group-eud-devices",
+    "MemberRef": [],
+    "Rule": "Static",
+    "IsAssignableToRole": false,
+    "ProtectedGroup": true,
+    "IsAppGroup": false
+  }
+]

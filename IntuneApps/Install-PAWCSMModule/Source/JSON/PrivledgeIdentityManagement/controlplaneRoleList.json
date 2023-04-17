@@ -1,0 +1,131 @@
+[
+    {
+      "DisplayName": "Application Administrator",
+      "Id": "9b895d92-2cd3-44c7-9d02-a6ac2d5ea5c3"
+    },
+    {
+      "DisplayName": "Authentication Administrator",
+      "Id": "c4e39bd9-1100-46d3-8c65-fb160da0071f"
+    },
+    {
+      "DisplayName": "Authentication Policy Administrator",
+      "Id": "0526716b-113d-4c15-b2c8-68e3c22b9f80"
+    },
+    {
+      "DisplayName": "Azure AD Joined Device Local Administrator",
+      "Id": "9f06204d-73c1-4d4c-880a-6edb90606fd8"
+    },
+    {
+      "DisplayName": "Azure DevOps Administrator",
+      "Id": "e3973bdf-4987-49ae-837a-ba8e231c7286"
+    },
+    {
+      "DisplayName": "Cloud App Security Administrator",
+      "Id": "892c5842-a9a6-463a-8041-72aa08ca3cf6"
+    },
+    {
+      "DisplayName": "Cloud Application Administrator",
+      "Id": "158c047a-c907-4556-b7ef-446551a6b5f7"
+    },
+    {
+      "DisplayName": "Cloud Device Administrator",
+      "Id": "7698a772-787b-4ac8-901f-60d6b08affd2"
+    },
+    {
+      "DisplayName": "Conditional Access Administrator",
+      "Id": "b1be1c3e-b65d-4f19-8427-f6fa0d97feb9"
+    },
+    {
+      "DisplayName": "Directory Readers",
+      "Id": "88d8e3e3-8f55-4a1e-953a-9b9898b8876b"
+    },
+    {
+      "DisplayName": "Directory Synchronization Accounts",
+      "Id": "d29b2b05-8046-44ba-8758-1e26182fcf32"
+    },
+    {
+      "DisplayName": "Directory Writers",
+      "Id": "9360feb5-f418-4baa-8175-e2a00bac4301"
+    },
+    {
+      "DisplayName": "Domain Name Administrator",
+      "Id": "8329153b-31d0-4727-b945-745eb3bc5f31"
+    },
+    {
+      "DisplayName": "External ID User Flow Administrator",
+      "Id": "6e591065-9bad-43ed-90f3-e9424366d2f0"
+    },
+    {
+      "DisplayName": "External ID User Flow Attribute Administrator",
+      "Id": "0f971eea-41eb-4569-a71e-57bb8a3eff1e"
+    },
+    {
+      "DisplayName": "External Identity Provider Administrator",
+      "Id": "be2f45a1-457d-42af-a067-6ec1fa63bc45"
+    },
+    {
+      "DisplayName": "Global Administrator",
+      "Id": "62e90394-69f5-4237-9190-012177145e10"
+    },
+    {
+      "DisplayName": "Global Reader",
+      "Id": "f2ef992c-3afb-46b9-b7cf-a126ee74c451"
+    },
+    {
+      "DisplayName": "Groups Administrator",
+      "Id": "fdd7a751-b60b-444a-984c-02652fe8fa1c"
+    },
+    {
+      "DisplayName": "Helpdesk Administrator",
+      "Id": "729827e3-9c14-49f7-bb1b-9608f156bbb8"
+    },
+    {
+      "DisplayName": "Hybrid Identity Administrator",
+      "Id": "8ac3fc64-6eca-42ea-9e69-59f4c7b60eb2"
+    },
+    {
+      "DisplayName": "Intune Administrator",
+      "Id": "3a2c62db-5318-420d-8d74-23affee5d9d5"
+    },
+    {
+    "DisplayName": "Message Center Privacy Reader",
+    "Id": "ac16e43d-7b2d-40e0-ac05-243ff356ab5b"
+    },
+    {
+    "DisplayName": "Message Center Reader",
+    "Id": "790c1fb9-7f7d-4f88-86a1-ef1f95c05c1b"
+    },
+    {
+      "DisplayName": "Password Administrator",
+      "Id": "966707d0-3269-4727-9be2-8c3a10f19b9d"
+    },
+    {
+      "DisplayName": "Privileged Authentication Administrator",
+      "Id": "7be44c8a-adaf-4e2a-84d6-ab2649e08a13"
+    },
+    {
+      "DisplayName": "Privileged Role Administrator",
+      "Id": "e8611ab8-c189-46e8-94e1-60213ab1f814"
+    },
+    {
+      "DisplayName": "Reports Reader",
+      "Id": "4a5d8f65-41da-4de4-8968-e035b65339cf"
+    },
+    {
+      "DisplayName": "Security Administrator",
+      "Id": "194ae4cb-b126-40b2-bd5b-6091b380977d"
+    },
+    {
+      "DisplayName": "Security Operator",
+      "Id": "5f2222b1-57c3-48ba-8ad5-d4759f1fde6f"
+    },
+    {
+      "DisplayName": "Security Reader",
+      "Id": "5d6b6bb7-de71-4623-b4af-96380a352509"
+    },
+    {
+      "DisplayName": "User Administrator",
+      "Id": "fe930be7-5e62-47db-91af-98c3a49a38b1"
+    }
+  ]
+  

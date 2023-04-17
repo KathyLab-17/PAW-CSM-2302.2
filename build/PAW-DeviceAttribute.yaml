@@ -1,0 +1,52 @@
+# PAW Build pipeline
+
+trigger:
+  - none
+
+pool:
+  vmImage: windows-latest
+
+steps:
+- task: AzurePowerShell@5
+  displayName: "Obtain SPN Certificate"
+  inputs:
+    azureSubscription: '$(service-connection)'
+    ScriptType: 'FilePath'
+    ScriptPath: '.\Prepare\Cert.ps1'
+    ScriptArguments: '-vaultname $(vaultname) -certname $(certname)'
+    azurePowerShellVersion: 'LatestVersion'
+- task: PowerShell@2
+  displayName: "Install PAW dependencies"
+  inputs:
+    filePath: '.\Prepare\PAWCSM.ps1'
+
+- task: CopyFiles@2
+  displayName: "Copy PAW PowerShell Binaries"
+  inputs:
+    SourceFolder: '.\Source'
+    Contents: '**'
+    TargetFolder: 'c:\Program Files\WindowsPowerShell\Modules\PAWCSM'
+
+
+- task: PowerShell@2
+  displayName: "Import PAW-CSM Configuration"
+  inputs:
+    targetType: 'inline'
+    errorActionPreference: 'silentlyContinue'
+    script: |
+      Import-module PAWCSM
+      Connect-MgGraph -ClientId $(appid) -TenantId $(tenantid) -CertificateThumbprint $(cert)
+      Set-ExecutionPolicy Remotesigned -Scope Process
+      $devices = Import-csv c:\repo\devices.csv
+      Foreach ($device in $devices){
+          Set-AzureAdDeviceExtensionAttribute -SerialNumber $device.serialnumber -ExtensionAttribute extensionAttribute1 -Value PAW
+      } 
+
+
+- task: PublishBuildArtifacts@1
+  displayName: "Collect PAW Log File"
+  inputs:
+    PathtoPublish: 'C:\Users\VssAdministrator\AppData\Local\Microsoft\PAWCSM\PAWCSM.log'
+    ArtifactName: 'PAW Log File'
+    publishLocation: 'Container'
+

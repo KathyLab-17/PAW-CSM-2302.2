@@ -1,0 +1,14 @@
+[
+  {
+    "DisplayName": "CSM Azure Break Glass 1",
+    "MailNickname": "BreakGlass1",
+    "AccountEnabled": true,
+    "Id": "user-azure-break-glass-1"
+  },
+  {
+    "DisplayName": "CSM Azure Break Glass 2",
+    "MailNickname": "BreakGlass2",
+    "AccountEnabled": true,
+    "Id": "user-azure-break-glass-2"
+  }
+]

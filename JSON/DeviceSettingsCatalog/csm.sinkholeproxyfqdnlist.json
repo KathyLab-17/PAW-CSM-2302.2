@@ -1,0 +1,2399 @@
+{
+	"@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/reusablePolicySettings/$entity",
+	"@odata.type": "#microsoft.graph.deviceManagementReusablePolicySetting",
+	"@odata.id": "deviceManagement/reusablePolicySettings('e3541217-31e2-4f97-b508-d5edc54953cc')",
+	"@odata.editLink": "deviceManagement/reusablePolicySettings('e3541217-31e2-4f97-b508-d5edc54953cc')",
+	"description": "",
+	"displayName": "PAW-Global-{PAWCSMVersion}-Windows-10-above-Sink-Hole-Proxy-FQDN-List",
+	"lastModifiedDateTime@odata.type": "#DateTimeOffset",
+	"lastModifiedDateTime": "2022-11-11T14:37:07Z",
+	"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}",
+	"id": "e3541217-31e2-4f97-b508-d5edc54953cc",
+	"referencingConfigurationPolicies@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/reusablePolicySettings('e3541217-31e2-4f97-b508-d5edc54953cc')/referencingConfigurationPolicies/$ref",
+	"referencingConfigurationPolicies@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/reusablePolicySettings('e3541217-31e2-4f97-b508-d5edc54953cc')/referencingConfigurationPolicies",
+	"#microsoft.graph.clone": {
+		"title": "microsoft.graph.clone",
+		"target": "https://graph.microsoft.com/beta/deviceManagement/reusablePolicySettings('e3541217-31e2-4f97-b508-d5edc54953cc')/microsoft.graph.clone"
+	},
+	"settingInstance": {
+		"@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingCollectionInstance",
+		"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}",
+		"settingInstanceTemplateReference": null,
+		"groupSettingCollectionValue@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationGroupSettingValue)",
+		"groupSettingCollectionValue": [
+			{
+				"@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingValue",
+				"settingValueTemplateReference": null,
+				"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+				"children": [
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_id",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "{a25ff1cd-8d75-48da-9370-90949493be61}"
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve",
+						"settingInstanceTemplateReference": null,
+						"choiceSettingValue": {
+							"settingValueTemplateReference": null,
+							"value": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve_true",
+							"children": []
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_keyword",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "www.office.com"
+						}
+					}
+				]
+			},
+			{
+				"@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingValue",
+				"settingValueTemplateReference": null,
+				"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+				"children": [
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_id",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "{88b471e9-8d87-4bf9-a481-1ed68324b0df}"
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve",
+						"settingInstanceTemplateReference": null,
+						"choiceSettingValue": {
+							"settingValueTemplateReference": null,
+							"value": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve_true",
+							"children": []
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_keyword",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "aka.ms"
+						}
+					}
+				]
+			},
+			{
+				"@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingValue",
+				"settingValueTemplateReference": null,
+				"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+				"children": [
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_id",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "{1c557dbf-9041-4874-b691-0f131df28c77}"
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve",
+						"settingInstanceTemplateReference": null,
+						"choiceSettingValue": {
+							"settingValueTemplateReference": null,
+							"value": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve_true",
+							"children": []
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_keyword",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "outlook.office365.com"
+						}
+					}
+				]
+			},
+			{
+				"@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingValue",
+				"settingValueTemplateReference": null,
+				"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+				"children": [
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_id",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "{b913e9db-372e-4753-a888-3aa77a6074f2}"
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve",
+						"settingInstanceTemplateReference": null,
+						"choiceSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve_true",
+							"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+							"children": []
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_keyword",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "account.live.com"
+						}
+					}
+				]
+			},
+			{
+				"@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingValue",
+				"settingValueTemplateReference": null,
+				"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+				"children": [
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_id",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "{6b07363a-abcd-4511-b97e-a3874e22ca2c}"
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve",
+						"settingInstanceTemplateReference": null,
+						"choiceSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve_true",
+							"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+							"children": []
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_keyword",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "*.msft.net"
+						}
+					}
+				]
+			},
+			{
+				"@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingValue",
+				"settingValueTemplateReference": null,
+				"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+				"children": [
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_id",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "{38ea2b0b-291b-4a69-89b9-97421c394200}"
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve",
+						"settingInstanceTemplateReference": null,
+						"choiceSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve_true",
+							"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+							"children": []
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_keyword",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "*.msauth.net"
+						}
+					}
+				]
+			},
+			{
+				"@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingValue",
+				"settingValueTemplateReference": null,
+				"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+				"children": [
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_id",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "{72a0b2c8-05e9-4ec0-8ac9-1f0628eb7a41}"
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve",
+						"settingInstanceTemplateReference": null,
+						"choiceSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve_true",
+							"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+							"children": []
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_keyword",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "*.msauthimages.net"
+						}
+					}
+				]
+			},
+			{
+				"@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingValue",
+				"settingValueTemplateReference": null,
+				"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+				"children": [
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_id",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "{eb5dda41-b3be-483b-92a4-e6de4a14bda2}"
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve",
+						"settingInstanceTemplateReference": null,
+						"choiceSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve_true",
+							"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+							"children": []
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_keyword",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "*.msftauthimages.net"
+						}
+					}
+				]
+			},
+			{
+				"@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingValue",
+				"settingValueTemplateReference": null,
+				"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+				"children": [
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_id",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "{b747ebbd-31f0-4944-9b4b-7cd1be159cac}"
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve",
+						"settingInstanceTemplateReference": null,
+						"choiceSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve_true",
+							"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+							"children": []
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_keyword",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "*.msftauth.net"
+						}
+					}
+				]
+			},
+			{
+				"@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingValue",
+				"settingValueTemplateReference": null,
+				"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+				"children": [
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_id",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "{c03dabd4-9f8f-4dae-8a95-f08655289423}"
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve",
+						"settingInstanceTemplateReference": null,
+						"choiceSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve_true",
+							"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+							"children": []
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_keyword",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "*.azure.com"
+						}
+					}
+				]
+			},
+			{
+				"@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingValue",
+				"settingValueTemplateReference": null,
+				"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+				"children": [
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_id",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "{5d6ff6d9-a720-47cc-b806-982b7a52ba26}"
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve",
+						"settingInstanceTemplateReference": null,
+						"choiceSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve_true",
+							"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+							"children": []
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_keyword",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "*.azure.net"
+						}
+					}
+				]
+			},
+			{
+				"@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingValue",
+				"settingValueTemplateReference": null,
+				"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+				"children": [
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_id",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "{21bab68d-5c3d-4550-846b-6bc83be30e1b}"
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve",
+						"settingInstanceTemplateReference": null,
+						"choiceSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve_true",
+							"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+							"children": []
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_keyword",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "*.azureedge.net"
+						}
+					}
+				]
+			},
+			{
+				"@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingValue",
+				"settingValueTemplateReference": null,
+				"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+				"children": [
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_id",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "{6aae7b0d-0f49-4fd6-8bbd-2226f3877abb}"
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve",
+						"settingInstanceTemplateReference": null,
+						"choiceSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve_true",
+							"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+							"children": []
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_keyword",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "*.azurewebsites.net"
+						}
+					}
+				]
+			},
+			{
+				"@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingValue",
+				"settingValueTemplateReference": null,
+				"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+				"children": [
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_id",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "{9547139a-4aea-4504-a27e-d276dcc17241}"
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve",
+						"settingInstanceTemplateReference": null,
+						"choiceSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve_true",
+							"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+							"children": []
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_keyword",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "*.microsoft.com"
+						}
+					}
+				]
+			},
+			{
+				"@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingValue",
+				"settingValueTemplateReference": null,
+				"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+				"children": [
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_id",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "{c393236f-8114-4652-9ba2-4c6b5925f9ac}"
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve",
+						"settingInstanceTemplateReference": null,
+						"choiceSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve_true",
+							"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+							"children": []
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_keyword",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "microsoft.com"
+						}
+					}
+				]
+			},
+			{
+				"@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingValue",
+				"settingValueTemplateReference": null,
+				"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+				"children": [
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_id",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "{492061b9-6cc4-4e7c-894b-8c61e34fd765}"
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve",
+						"settingInstanceTemplateReference": null,
+						"choiceSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve_true",
+							"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+							"children": []
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_keyword",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "*.windowsupdate.com"
+						}
+					}
+				]
+			},
+			{
+				"@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingValue",
+				"settingValueTemplateReference": null,
+				"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+				"children": [
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_id",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "{f4747259-8b81-4615-b490-d7d861db0c37}"
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve",
+						"settingInstanceTemplateReference": null,
+						"choiceSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve_true",
+							"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+							"children": []
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_keyword",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "*.microsoftonline.com"
+						}
+					}
+				]
+			},
+			{
+				"@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingValue",
+				"settingValueTemplateReference": null,
+				"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+				"children": [
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_id",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "{0d64f308-359c-4429-83ac-c9483fa1bd65}"
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve",
+						"settingInstanceTemplateReference": null,
+						"choiceSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve_true",
+							"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+							"children": []
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_keyword",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "*.microsoftonline-p.net"
+						}
+					}
+				]
+			},
+			{
+				"@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingValue",
+				"settingValueTemplateReference": null,
+				"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+				"children": [
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_id",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "{1e1b9c65-4179-4bcd-bef3-68d3acca8846}"
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve",
+						"settingInstanceTemplateReference": null,
+						"choiceSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve_true",
+							"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+							"children": []
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_keyword",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "*.microsoftonline-p.com"
+						}
+					}
+				]
+			},
+			{
+				"@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingValue",
+				"settingValueTemplateReference": null,
+				"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+				"children": [
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_id",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "{95ff71ee-2a66-4190-b9c1-2a0f222b66e3}"
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve",
+						"settingInstanceTemplateReference": null,
+						"choiceSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve_true",
+							"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+							"children": []
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_keyword",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "*.windows.net"
+						}
+					}
+				]
+			},
+			{
+				"@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingValue",
+				"settingValueTemplateReference": null,
+				"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+				"children": [
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_id",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "{37a86e9a-f716-4ce8-a28b-473982b9aa8c}"
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve",
+						"settingInstanceTemplateReference": null,
+						"choiceSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve_true",
+							"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+							"children": []
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_keyword",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "*.windows.com"
+						}
+					}
+				]
+			},
+			{
+				"@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingValue",
+				"settingValueTemplateReference": null,
+				"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+				"children": [
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_id",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "{b67e44b9-d028-48ff-ab01-997e8c9d7492}"
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve",
+						"settingInstanceTemplateReference": null,
+						"choiceSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve_true",
+							"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+							"children": []
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_keyword",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "*.windowsazure.com"
+						}
+					}
+				]
+			},
+			{
+				"@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingValue",
+				"settingValueTemplateReference": null,
+				"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+				"children": [
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_id",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "{ace47727-77ae-41cc-a4c3-dbc919437a90}"
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve",
+						"settingInstanceTemplateReference": null,
+						"choiceSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve_true",
+							"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+							"children": []
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_keyword",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "*.loganalytics.io"
+						}
+					}
+				]
+			},
+			{
+				"@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingValue",
+				"settingValueTemplateReference": null,
+				"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+				"children": [
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_id",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "{a60d99d1-d528-40e5-847f-74949f2827b9}"
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve",
+						"settingInstanceTemplateReference": null,
+						"choiceSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve_true",
+							"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+							"children": []
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_keyword",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "*.applicationinsights.io"
+						}
+					}
+				]
+			},
+			{
+				"@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingValue",
+				"settingValueTemplateReference": null,
+				"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+				"children": [
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_id",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "{6c3b2d45-28ac-4c77-b7f8-b6cdfb8d784b}"
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve",
+						"settingInstanceTemplateReference": null,
+						"choiceSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve_true",
+							"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+							"children": []
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_keyword",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "*.vsassets.io"
+						}
+					}
+				]
+			},
+			{
+				"@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingValue",
+				"settingValueTemplateReference": null,
+				"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+				"children": [
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_id",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "{b52dff72-6e84-4b9a-8323-64558d4fa6d0}"
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve",
+						"settingInstanceTemplateReference": null,
+						"choiceSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve_true",
+							"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+							"children": []
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_keyword",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "*.azure-automation.net"
+						}
+					}
+				]
+			},
+			{
+				"@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingValue",
+				"settingValueTemplateReference": null,
+				"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+				"children": [
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_id",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "{b4322f8a-c0a4-4bdc-936d-1a5a647fafae}"
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve",
+						"settingInstanceTemplateReference": null,
+						"choiceSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve_true",
+							"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+							"children": []
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_keyword",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "*.azure-api.net"
+						}
+					}
+				]
+			},
+			{
+				"@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingValue",
+				"settingValueTemplateReference": null,
+				"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+				"children": [
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_id",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "{78e74723-ef34-450c-a8a6-b49123869665}"
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve",
+						"settingInstanceTemplateReference": null,
+						"choiceSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve_true",
+							"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+							"children": []
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_keyword",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "*.azure-devices.net"
+						}
+					}
+				]
+			},
+			{
+				"@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingValue",
+				"settingValueTemplateReference": null,
+				"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+				"children": [
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_id",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "{9f3963b2-48dd-403d-8fa7-81b80397f3bf}"
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve",
+						"settingInstanceTemplateReference": null,
+						"choiceSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve_true",
+							"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+							"children": []
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_keyword",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "*.visualstudio.com"
+						}
+					}
+				]
+			},
+			{
+				"@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingValue",
+				"settingValueTemplateReference": null,
+				"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+				"children": [
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_id",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "{8c2afbda-1b28-4e4c-bee7-c5d5e91ddb60}"
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve",
+						"settingInstanceTemplateReference": null,
+						"choiceSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve_true",
+							"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+							"children": []
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_keyword",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "portal.office.com"
+						}
+					}
+				]
+			},
+			{
+				"@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingValue",
+				"settingValueTemplateReference": null,
+				"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+				"children": [
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_id",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "{8060373f-f27c-4cff-a0b7-a69c80019d8f}"
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve",
+						"settingInstanceTemplateReference": null,
+						"choiceSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve_true",
+							"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+							"children": []
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_keyword",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "*.aspnetcdn.com"
+						}
+					}
+				]
+			},
+			{
+				"@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingValue",
+				"settingValueTemplateReference": null,
+				"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+				"children": [
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_id",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "{d9f3012a-78dc-4356-81e5-5258e80a0a83}"
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve",
+						"settingInstanceTemplateReference": null,
+						"choiceSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve_true",
+							"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+							"children": []
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_keyword",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "*.sharepointonline.com"
+						}
+					}
+				]
+			},
+			{
+				"@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingValue",
+				"settingValueTemplateReference": null,
+				"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+				"children": [
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_id",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "{b80daadd-5b86-4c78-8e63-81b804faca7e}"
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve",
+						"settingInstanceTemplateReference": null,
+						"choiceSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve_true",
+							"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+							"children": []
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_keyword",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "*.msecnd.net"
+						}
+					}
+				]
+			},
+			{
+				"@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingValue",
+				"settingValueTemplateReference": null,
+				"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+				"children": [
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_id",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "{aff4933b-5617-4339-a81b-954b66280c3c}"
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve",
+						"settingInstanceTemplateReference": null,
+						"choiceSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve_true",
+							"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+							"children": []
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_keyword",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "*.msocdn.com"
+						}
+					}
+				]
+			},
+			{
+				"@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingValue",
+				"settingValueTemplateReference": null,
+				"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+				"children": [
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_id",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "{06aba2e1-37b6-4bf7-9ad6-0059d1b34a42}"
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve",
+						"settingInstanceTemplateReference": null,
+						"choiceSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve_true",
+							"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+							"children": []
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_keyword",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "*.webtrends.com"
+						}
+					}
+				]
+			},
+			{
+				"@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingValue",
+				"settingValueTemplateReference": null,
+				"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+				"children": [
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_id",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "{570671d2-16b2-4ff5-a94e-f7579164abe9}"
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve",
+						"settingInstanceTemplateReference": null,
+						"choiceSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve_true",
+							"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+							"children": []
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_keyword",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "*.aka.ms"
+						}
+					}
+				]
+			},
+			{
+				"@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingValue",
+				"settingValueTemplateReference": null,
+				"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+				"children": [
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_id",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "{eeaeeebe-0962-4a17-aba2-159f7862b63b}"
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve",
+						"settingInstanceTemplateReference": null,
+						"choiceSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve_true",
+							"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+							"children": []
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_keyword",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "*.digicert.com"
+						}
+					}
+				]
+			},
+			{
+				"@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingValue",
+				"settingValueTemplateReference": null,
+				"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+				"children": [
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_id",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "{13795492-1b24-4789-9c39-77f34bcd6b79}"
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve",
+						"settingInstanceTemplateReference": null,
+						"choiceSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve_true",
+							"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+							"children": []
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_keyword",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "*.w3.org"
+						}
+					}
+				]
+			},
+			{
+				"@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingValue",
+				"settingValueTemplateReference": null,
+				"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+				"children": [
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_id",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "{7cb573cf-1591-4bb4-abc7-9df512b764b4}"
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve",
+						"settingInstanceTemplateReference": null,
+						"choiceSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve_true",
+							"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+							"children": []
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_keyword",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "*.phonefactor.net"
+						}
+					}
+				]
+			},
+			{
+				"@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingValue",
+				"settingValueTemplateReference": null,
+				"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+				"children": [
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_id",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "{c00e07e2-39f3-497c-958c-10f662bbfacb}"
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve",
+						"settingInstanceTemplateReference": null,
+						"choiceSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve_true",
+							"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+							"children": []
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_keyword",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "*.nuget.org"
+						}
+					}
+				]
+			},
+			{
+				"@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingValue",
+				"settingValueTemplateReference": null,
+				"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+				"children": [
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_id",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "{766323b7-d03b-4d81-9167-ce9143dec47d}"
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve",
+						"settingInstanceTemplateReference": null,
+						"choiceSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve_true",
+							"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+							"children": []
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_keyword",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "*.cloudapp.net"
+						}
+					}
+				]
+			},
+			{
+				"@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingValue",
+				"settingValueTemplateReference": null,
+				"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+				"children": [
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_id",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "{7d80f0eb-6643-4282-b306-8d3a264d54f0}"
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve",
+						"settingInstanceTemplateReference": null,
+						"choiceSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve_true",
+							"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+							"children": []
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_keyword",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "*.trafficmanager.net"
+						}
+					}
+				]
+			},
+			{
+				"@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingValue",
+				"settingValueTemplateReference": null,
+				"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+				"children": [
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_id",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "{80e66a78-57ad-4a45-b122-1155ad9e6877}"
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve",
+						"settingInstanceTemplateReference": null,
+						"choiceSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve_true",
+							"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+							"children": []
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_keyword",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "login.live.com"
+						}
+					}
+				]
+			},
+			{
+				"@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingValue",
+				"settingValueTemplateReference": null,
+				"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+				"children": [
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_id",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "{1790b120-04e7-44d8-81fd-e4b343ab28a6}"
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve",
+						"settingInstanceTemplateReference": null,
+						"choiceSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve_true",
+							"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+							"children": []
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_keyword",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "clientconfig.passport.net"
+						}
+					}
+				]
+			},
+			{
+				"@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingValue",
+				"settingValueTemplateReference": null,
+				"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+				"children": [
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_id",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "{4592a377-6454-4fc8-b16b-f8602c91ea70}"
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve",
+						"settingInstanceTemplateReference": null,
+						"choiceSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve_true",
+							"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+							"children": []
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_keyword",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "windowsphone.com"
+						}
+					}
+				]
+			},
+			{
+				"@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingValue",
+				"settingValueTemplateReference": null,
+				"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+				"children": [
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_id",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "{ab760287-6ec1-40af-86ae-f63b2b2a10fa}"
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve",
+						"settingInstanceTemplateReference": null,
+						"choiceSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve_true",
+							"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+							"children": []
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_keyword",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "*.wns.windows.com"
+						}
+					}
+				]
+			},
+			{
+				"@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingValue",
+				"settingValueTemplateReference": null,
+				"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+				"children": [
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_id",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "{4148d7a0-7ab1-467f-9632-390ce965e2eb}"
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve",
+						"settingInstanceTemplateReference": null,
+						"choiceSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve_true",
+							"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+							"children": []
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_keyword",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "*.s-microsoft.com"
+						}
+					}
+				]
+			},
+			{
+				"@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingValue",
+				"settingValueTemplateReference": null,
+				"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+				"children": [
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_id",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "{a8e340b8-e128-47c5-acce-217207ecf35f}"
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve",
+						"settingInstanceTemplateReference": null,
+						"choiceSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve_true",
+							"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+							"children": []
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_keyword",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "www.msftconnecttest.com"
+						}
+					}
+				]
+			},
+			{
+				"@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingValue",
+				"settingValueTemplateReference": null,
+				"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+				"children": [
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_id",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "{c15dddd6-9bfc-47da-b8ca-c9bebace65a5}"
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve",
+						"settingInstanceTemplateReference": null,
+						"choiceSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve_true",
+							"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+							"children": []
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_keyword",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "graph.windows.net"
+						}
+					}
+				]
+			},
+			{
+				"@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingValue",
+				"settingValueTemplateReference": null,
+				"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+				"children": [
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_id",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "{8678ed55-a782-46d9-b90b-8bcaf07b5997}"
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve",
+						"settingInstanceTemplateReference": null,
+						"choiceSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve_true",
+							"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+							"children": []
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_keyword",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "*.manage.microsoft.com"
+						}
+					}
+				]
+			},
+			{
+				"@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingValue",
+				"settingValueTemplateReference": null,
+				"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+				"children": [
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_id",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "{46c62af9-10d5-4b27-8c33-d1a99081334b}"
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve",
+						"settingInstanceTemplateReference": null,
+						"choiceSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve_true",
+							"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+							"children": []
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_keyword",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "*.aadcdn.microsoftonline-p.com"
+						}
+					}
+				]
+			},
+			{
+				"@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingValue",
+				"settingValueTemplateReference": null,
+				"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+				"children": [
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_id",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "{0bf1d8fc-37ea-4e54-bb95-2df32e8742f4}"
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve",
+						"settingInstanceTemplateReference": null,
+						"choiceSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve_true",
+							"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+							"children": []
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_keyword",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "*.azureafd.net"
+						}
+					}
+				]
+			},
+			{
+				"@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingValue",
+				"settingValueTemplateReference": null,
+				"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+				"children": [
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_id",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "{ab1c85bf-1bef-460d-b4e8-064d8305eac0}"
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve",
+						"settingInstanceTemplateReference": null,
+						"choiceSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve_true",
+							"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+							"children": []
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_keyword",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "*.azuredatalakestore.net"
+						}
+					}
+				]
+			},
+			{
+				"@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingValue",
+				"settingValueTemplateReference": null,
+				"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+				"children": [
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_id",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "{dad73d8c-80c4-415d-abc8-85681a76afa7}"
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve",
+						"settingInstanceTemplateReference": null,
+						"choiceSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve_true",
+							"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+							"children": []
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_keyword",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "*.windows-int.net"
+						}
+					}
+				]
+			},
+			{
+				"@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingValue",
+				"settingValueTemplateReference": null,
+				"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+				"children": [
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_id",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "{dc6e88f9-6bc3-4152-ae45-36150cd8ad20}"
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve",
+						"settingInstanceTemplateReference": null,
+						"choiceSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve_true",
+							"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+							"children": []
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_keyword",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "*.onestore.ms"
+						}
+					}
+				]
+			},
+			{
+				"@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingValue",
+				"settingValueTemplateReference": null,
+				"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+				"children": [
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_id",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "{04e96e49-ecd8-4210-bc2d-000426436a69}"
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve",
+						"settingInstanceTemplateReference": null,
+						"choiceSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve_true",
+							"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+							"children": []
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_keyword",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "*.office.net"
+						}
+					}
+				]
+			},
+			{
+				"@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingValue",
+				"settingValueTemplateReference": null,
+				"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+				"children": [
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_id",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "{a5b97c87-3600-4024-982c-c47443a47289}"
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve",
+						"settingInstanceTemplateReference": null,
+						"choiceSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve_true",
+							"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+							"children": []
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_keyword",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "*.officeapps.live.com"
+						}
+					}
+				]
+			},
+			{
+				"@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingValue",
+				"settingValueTemplateReference": null,
+				"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+				"children": [
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_id",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "{0a18b336-72d8-4a81-8ec1-9613de430a62}"
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve",
+						"settingInstanceTemplateReference": null,
+						"choiceSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve_true",
+							"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+							"children": []
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_keyword",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "*.powershellgallery.com"
+						}
+					}
+				]
+			},
+			{
+				"@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingValue",
+				"settingValueTemplateReference": null,
+				"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+				"children": [
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_id",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "{fe3203cb-51d6-4765-976a-d20b4d8a6992}"
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve",
+						"settingInstanceTemplateReference": null,
+						"choiceSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve_true",
+							"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+							"children": []
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_keyword",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "*.azure-apim.net"
+						}
+					}
+				]
+			},
+			{
+				"@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingValue",
+				"settingValueTemplateReference": null,
+				"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+				"children": [
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_id",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "{0a6bf654-8e24-41ce-8693-7da95a570e10}"
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve",
+						"settingInstanceTemplateReference": null,
+						"choiceSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve_true",
+							"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+							"children": []
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_keyword",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "spoprod-a.akamaihd.net"
+						}
+					}
+				]
+			},
+			{
+				"@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingValue",
+				"settingValueTemplateReference": null,
+				"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+				"children": [
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_id",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "{b03de9eb-0d5e-4e02-8203-42376dbc58a2}"
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve",
+						"settingInstanceTemplateReference": null,
+						"choiceSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_autoresolve_true",
+							"children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+							"children": []
+						}
+					},
+					{
+						"@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+						"settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses_{id}_keyword",
+						"settingInstanceTemplateReference": null,
+						"simpleSettingValue": {
+							"@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+							"settingValueTemplateReference": null,
+							"value": "*.hip.live.com"
+						}
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,27 @@
+{"@odata.type":"#microsoft.graph.deviceEnrollmentPlatformRestrictionConfiguration",
+    "displayName":"PAW-Global-{PAWCSMVersion}-Device-iOS-Restrictions",
+    "description":"",
+    "roleScopeTagIds":["{tag-paw-csm}"],
+    "platformType":"ios",
+    "platformRestriction":
+    {"platformBlocked":true,
+        "personalDeviceEnrollmentBlocked":false,
+        "osMinimumVersion":"",
+        "osMaximumVersion":"",
+        "blockedManufacturers":[]
+    },
+    "assignments@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceEnrollmentConfigurations(\u0027f0f053a6-d39f-4581-9631-2d062d55a00c_PlatformRestrictions\u0027)/microsoft.graph.deviceEnrollmentLimitConfiguration/microsoft.graph.deviceEnrollmentPlatformRestrictionsConfiguration/microsoft.graph.deviceEnrollmentWindowsHelloForBusinessConfiguration/microsoft.graph.windows10EnrollmentCompletionPageConfiguration/microsoft.graph.deviceEnrollmentLimitConfiguration/microsoft.graph.deviceEnrollmentPlatformRestrictionsConfiguration/microsoft.graph.deviceEnrollmentPlatformRestrictionsConfiguration/assignments",
+    "assignments": [
+      {
+        "id": "f0f053a6-d39f-4581-9631-2d062d55a00c_de94fc7c-af03-4bd7-8482-84380ff33247_f0f053a6-d39f-4581-9631-2d062d55a00c",
+        "source": "direct",
+        "sourceId": "f0f053a6-d39f-4581-9631-2d062d55a00c",
+        "target": {
+          "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+          "deviceAndAppManagementAssignmentFilterId": null,
+          "deviceAndAppManagementAssignmentFilterType": "none",
+          "groupId": "group-paw-global-users"
+        }
+      }
+    ]
+    }

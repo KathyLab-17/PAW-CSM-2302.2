@@ -1,0 +1,20 @@
+{
+  "$schema": "./../pawintuneapp.schema.json",
+  "appType": "PS1",
+  "ruleType": "TAGFILE",
+  "returnCodeType": "DEFAULT",
+  "installExperience": "System",
+  "packageName": "Install-PAWCSMModule",
+  "packagePath": "",
+  "displayName": "MCS PAW-CSM PowerShell Module",
+  "description": "MCS version of the PAW-CSM PowerShell module",
+  "publisher": "Microsoft Consulting Services",
+  "category": "Business",
+  "logoFile": "MSLogo.png",
+  "coreApp": true,
+  "espApp": false,
+  "requiredgroup": "paw-csm-apps-pawcsm-mgmt-powershell-module-user-required",
+  "availablegroup": "paw-csm-apps-pawcsm-mgmt-powershell-module-user-available",
+  "uninstallgroup": "paw-csm-apps-pawcsm-mgmt-powershell-module-user-uninstall",
+  "scopetag": "PAW-CSM"
+}

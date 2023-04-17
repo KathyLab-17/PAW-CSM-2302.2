@@ -1,0 +1,32 @@
+[  
+  {
+  "DisplayName": "PAW-CSM-Apps-gitforwindows-User-Required",
+  "Description": "Group used to assign Git For Windows App.",
+  "Id": "group-paw-csm-apps-gitforwindows-user-required",
+  "MemberRef": [],
+  "Rule": "Static",
+  "IsAssignableToRole": false,
+  "ProtectedGroup": true,
+  "IsAppGroup": false
+},
+{
+  "DisplayName": "PAW-CSM-Apps-gitforwindows-User-Available",
+  "Description": "Group used to assign Git For Windows App.",
+  "Id": "group-paw-csm-apps-gitforwindows-user-available",
+  "MemberRef": ["paw-csm-users"],
+  "Rule": "Static",
+  "IsAssignableToRole": false,
+  "ProtectedGroup": true,
+  "IsAppGroup": false
+},
+{
+  "DisplayName": "PAW-CSM-Apps-gitforwindows-User-Uninstall",
+  "Description": "Group used to assign Git For Windows App.",
+  "Id": "group-paw-csm-apps-gitforwindows-user-uninstall",
+  "MemberRef": [],
+  "Rule": "Static",
+  "IsAssignableToRole": false,
+  "ProtectedGroup": true,
+  "IsAppGroup": false
+}
+]

@@ -1,0 +1,124 @@
+{
+  "displayName": "PAW-Global-{PAWCSMVersion}-Windows-10-above-Account-Protection",
+  "description": "",
+  "roleScopeTagIds": ["{tag-paw-csm}"],
+  "Assignments": [
+    {
+      "target": {
+        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+        "deviceAndAppManagementAssignmentFilterId": null,
+        "deviceAndAppManagementAssignmentFilterType": "none",
+        "groupId": "group-paw-global-devices"
+      }
+    }
+  ],
+  "TemplateDisplayName": "Account protection (Preview)",
+  "TemplateId": "0f2b5d70-d4e9-4156-8c16-1397eb6c54a5",
+  "settingsDelta": [
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
+      "id": "65ec6f36-5476-4bdb-abcf-e5f96dc3045b",
+      "definitionId": "deviceConfiguration--windowsIdentityProtectionConfiguration_windowsHelloForBusinessBlocked",
+      "valueJson": "false",
+      "value": false
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementIntegerSettingInstance",
+      "id": "2d9de6fe-5d30-410b-aa61-cad0b2fb530f",
+      "definitionId": "deviceConfiguration--windowsIdentityProtectionConfiguration_pinMinimumLength",
+      "valueJson": "8",
+      "value": 8
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementIntegerSettingInstance",
+      "id": "fba322ec-b20e-4489-9358-a5330710eccd",
+      "definitionId": "deviceConfiguration--windowsIdentityProtectionConfiguration_pinMaximumLength",
+      "valueJson": "127",
+      "value": 127
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
+      "id": "5d82da1e-a101-4d77-8172-6f60962131c6",
+      "definitionId": "deviceConfiguration--windowsIdentityProtectionConfiguration_pinLowercaseCharactersUsage",
+      "valueJson": "\"notConfigured\"",
+      "value": "notConfigured"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
+      "id": "ab950d56-b044-42bd-908a-4dba2e9466b0",
+      "definitionId": "deviceConfiguration--windowsIdentityProtectionConfiguration_pinUppercaseCharactersUsage",
+      "valueJson": "\"notConfigured\"",
+      "value": "notConfigured"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
+      "id": "46d2f965-c13f-46bc-89a3-50ae4aed4508",
+      "definitionId": "deviceConfiguration--windowsIdentityProtectionConfiguration_pinSpecialCharactersUsage",
+      "valueJson": "\"notConfigured\"",
+      "value": "notConfigured"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementIntegerSettingInstance",
+      "id": "202edad4-e936-48d6-87c6-40d89e0e0566",
+      "definitionId": "deviceConfiguration--windowsIdentityProtectionConfiguration_pinExpirationInDays",
+      "valueJson": "0",
+      "value": 0
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementIntegerSettingInstance",
+      "id": "cb8ec18e-63bd-4450-ba90-8dd985d05f22",
+      "definitionId": "deviceConfiguration--windowsIdentityProtectionConfiguration_pinPreviousBlockCount",
+      "valueJson": "30",
+      "value": 30
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
+      "id": "9ef9c093-6a22-4a2d-921e-33fdc3ad4895",
+      "definitionId": "deviceConfiguration--windowsIdentityProtectionConfiguration_pinRecoveryEnabled",
+      "valueJson": "true",
+      "value": true
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
+      "id": "cc35566c-094c-4fc7-b395-91889fba0cf2",
+      "definitionId": "deviceConfiguration--windowsIdentityProtectionConfiguration_securityDeviceRequired",
+      "valueJson": "true",
+      "value": true
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
+      "id": "9fa0e1da-05f4-42a0-a841-7fbab4581b4e",
+      "definitionId": "deviceConfiguration--windowsIdentityProtectionConfiguration_unlockWithBiometricsEnabled",
+      "valueJson": "true",
+      "value": true
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
+      "id": "b51e0d8e-b649-49ef-b865-ccdfb66e68c9",
+      "definitionId": "deviceConfiguration--windowsIdentityProtectionConfiguration_enhancedAntiSpoofingForFacialFeaturesEnabled",
+      "valueJson": "true",
+      "value": true
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
+      "id": "9e62a241-082d-47ff-bd9b-429013eb5ea3",
+      "definitionId": "deviceConfiguration--windowsIdentityProtectionConfiguration_useCertificatesForOnPremisesAuthEnabled",
+      "valueJson": "false",
+      "value": false
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
+      "id": "fc15b43a-327b-4b35-b41f-1bb54b824d23",
+      "definitionId": "deviceConfiguration--windowsIdentityProtectionConfiguration_useSecurityKeyForSignin",
+      "valueJson": "true",
+      "value": true
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
+      "id": "edf1dade-af1c-4a79-b3f2-ed2a868b1872",
+      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_deviceGuardLocalSystemAuthorityCredentialGuardSettings",
+      "valueJson": "\"enableWithUEFILock\"",
+      "value": "enableWithUEFILock"
+    }
+  ]
+}

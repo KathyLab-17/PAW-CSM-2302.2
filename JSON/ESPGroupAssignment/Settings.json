@@ -1,0 +1,36 @@
+[
+  {
+    "userName": ""
+  },
+  {
+    "packageName": "MCS PAW-CSM Bitlocker Pin Tool v1.5",
+    "GroupToAdd": "PAW-Global-Apps-BitLocker-PIN-Tool-Device-Required",
+    "assignmentType": "required",
+    "appType": "Win32"
+  },
+  {
+    "packageName": "MCS PAW-CSM Install BGInfo",
+    "GroupToAdd": "PAW-Global-Apps-BGInfo-Device-Required",
+    "assignmentType": "required",
+    "appType": "Win32"
+  },
+  {
+    "packageName": "MCS PAW-CSM Set Device Config",
+    "GroupToAdd": "PAW-CSM-Apps-Set-Device-Config-Device-Required",
+    "assignmentType": "required",
+    "appType": "Win32"
+  },
+  {
+    "packageName": "Microsoft Edge for Windows 10",
+    "GroupToAdd": "PAW-CSM-Devices",
+    "assignmentType": "required",
+    "appType": "Edge"
+  },
+  {
+    "packageName": "Company Portal",
+    "GroupToAdd": "PAW-CSM-Devices",
+    "assignmentType": "required",
+    "appType": "Store",
+    "licenseType": "Device"
+  }
+]

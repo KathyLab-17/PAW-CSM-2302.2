@@ -1,0 +1,21 @@
+{
+    "@odata.type": "#microsoft.graph.windows10DeviceFirmwareConfigurationInterface",
+    "id": "f9c78e60-3d9a-4519-912f-cb69755b4ac8",
+    "lastModifiedDateTime": "2020-07-17T12:28:00.9000771Z",
+    "roleScopeTagIds": ["{tag-paw-csm}"],
+    "supportsScopeTags": true,
+    "deviceManagementApplicabilityRuleOsEdition": null,
+    "deviceManagementApplicabilityRuleOsVersion": null,
+    "deviceManagementApplicabilityRuleDeviceMode": null,
+    "createdDateTime": "2020-07-17T12:28:00.9000771Z",
+    "description": "Used to revert DFCI device lock-down changes, i.e. to remove the DFCI locks on the device.",
+    "displayName": "WIN10-OBJECT-CONFIG-DFCI-UI-Revert Changes",
+    "version": 1,
+    "changeUefiSettingsPermission": "notConfiguredOnly",
+    "virtualizationOfCpuAndIO": "notConfigured",
+    "cameras": "notConfigured",
+    "microphonesAndSpeakers": "notConfigured",
+    "radios": "notConfigured",
+    "bootFromExternalMedia": "notConfigured",
+    "bootFromBuiltInNetworkAdapters": "notConfigured"
+}

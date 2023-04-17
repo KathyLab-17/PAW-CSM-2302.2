@@ -1,0 +1,21 @@
+{
+    "@odata.type": "#microsoft.graph.windows10DeviceFirmwareConfigurationInterface",
+    "id": "1a5876ae-7069-4e6d-ba37-1fb918a7dea7",
+    "lastModifiedDateTime": "2020-07-21T13:53:12.3149761Z",
+    "roleScopeTagIds": ["{tag-paw-csm}"],
+    "supportsScopeTags": true,
+    "deviceManagementApplicabilityRuleOsEdition": null,
+    "deviceManagementApplicabilityRuleOsVersion": null,
+    "deviceManagementApplicabilityRuleDeviceMode": null,
+    "createdDateTime": "2020-06-21T06:51:03.7857435Z",
+    "description": "Policy to configure DFCI policy for devices that support it",
+    "displayName": "WIN10-OBJECT-CONFIG-DFCI-UI",
+    "version": 6,
+    "changeUefiSettingsPermission": "none",
+    "virtualizationOfCpuAndIO": "enabled",
+    "cameras": "enabled",
+    "microphonesAndSpeakers": "enabled",
+    "radios": "enabled",
+    "bootFromExternalMedia": "disabled",
+    "bootFromBuiltInNetworkAdapters": "disabled"
+}

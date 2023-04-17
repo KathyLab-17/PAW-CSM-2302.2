@@ -1,0 +1,33 @@
+{
+  "displayName": "PAW-Global-{PAWCSMVersion}-Block-Legacy-Auth",
+  "state": "enabledForReportingButNotEnforced",
+  "sessionControls": null,
+  "conditions": {
+    "userRiskLevels": [],
+    "signInRiskLevels": [],
+    "clientAppTypes": ["exchangeActiveSync", "other"],
+    "platforms": null,
+    "locations": null,
+    "deviceStates": null,
+    "devices": null,
+    "applications": {
+      "includeApplications": ["All"],
+      "excludeApplications": [],
+      "includeUserActions": []
+    },
+    "users": {
+      "includeUsers": [],
+      "excludeUsers": [],
+      "includeGroups": ["group-paw-global-users"],
+      "excludeGroups": ["group-paw-global-breakglass-accounts"],
+      "includeRoles": [],
+      "excludeRoles": []
+    }
+  },
+  "grantControls": {
+    "operator": "OR",
+    "builtInControls": ["block"],
+    "customAuthenticationFactors": [],
+    "termsOfUse": []
+  }
+}

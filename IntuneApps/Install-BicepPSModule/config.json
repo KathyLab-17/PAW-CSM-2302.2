@@ -1,0 +1,20 @@
+{
+  "$schema": "./../pawintuneapp.schema.json",
+  "appType": "PS1",
+  "ruleType": "TAGFILE",
+  "returnCodeType": "DEFAULT",
+  "installExperience": "User",
+  "packageName": "Install-BicepPSModule",
+  "packagePath": "",
+  "displayName": "Azure Bicep PowerShell Module",
+  "description": "Installs the Azure Bicep PowerShell Module",
+  "publisher": "Microsoft",
+  "category": "Business",
+  "logoFile": "bicep.png",
+  "coreApp": true,
+  "espApp": false,
+  "requiredgroup": "PAW-csm-apps-BicepPSModule-user-required",
+  "availablegroup": "PAW-csm-apps-BicepPSModule-user-available",
+  "uninstallgroup": "PAW-csm-apps-BicepPSModule-user-uninstall",
+  "scopetag": "PAW-CSM"
+}

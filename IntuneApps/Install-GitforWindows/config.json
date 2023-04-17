@@ -1,0 +1,20 @@
+{
+  "$schema": "./../pawintuneapp.schema.json",
+  "appType": "PS1",
+  "ruleType": "TAGFILE",
+  "returnCodeType": "DEFAULT",
+  "installExperience": "System",
+  "packageName": "Install-GitForWindows",
+  "packagePath": "",
+  "displayName": "Git for Windows",
+  "description": "For managing and publishing content on GitHub",
+  "publisher": "Git-SCM",
+  "category": "Business",
+  "logoFile": "git_logo.png",
+  "coreApp": true,
+  "espApp": false,
+  "requiredgroup": "paw-csm-apps-gitforwindows-user-required",
+  "availablegroup": "paw-csm-apps-gitforwindows-user-available",
+  "uninstallgroup": "paw-csm-apps-gitforwindows-user-uninstall",
+  "scopetag": "PAW-CSM"
+}

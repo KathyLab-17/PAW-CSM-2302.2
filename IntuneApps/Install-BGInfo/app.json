@@ -1,0 +1,25 @@
+{
+    "@odata.type": "#microsoft.graph.mobileApp",
+    "id": "String (identifier)",
+    "displayName": "String",
+    "description": "String",
+    "publisher": "String",
+    "largeIcon": {
+      "@odata.type": "microsoft.graph.mimeContent",
+      "type": "String",
+      "value": "binary"
+    },
+    "createdDateTime": "String (timestamp)",
+    "lastModifiedDateTime": "String (timestamp)",
+    "isFeatured": true,
+    "privacyInformationUrl": "String",
+    "informationUrl": "String",
+    "owner": "String",
+    "developer": "String",
+    "notes": "String",
+    "uploadState": 1024,
+    "publishingState": "String",
+    "isAssigned": true,
+    "roleScopeTagIds": ["{tag-paw-csm}"],
+    "dependentAppCount": 1024
+  }

@@ -1,0 +1,62 @@
+{
+    "@odata.type":  "#microsoft.graph.windowsUpdateForBusinessConfiguration",
+    "roleScopeTagIds": ["{tag-paw-csm}"],
+    "deviceManagementApplicabilityRuleOsEdition":  null,
+    "deviceManagementApplicabilityRuleOsVersion":  null,
+    "deviceManagementApplicabilityRuleDeviceMode":  null,
+    "description":  "",
+    "displayName":  "PAW-Global-{PAWCSMVersion}-Windows-10-above-Update-Ring-Broad-UI",
+    "deliveryOptimizationMode":  "userDefined",
+    "prereleaseFeatures":  "userDefined",
+    "automaticUpdateMode":  "autoInstallAtMaintenanceTime",
+    "microsoftUpdateServiceAllowed":  true,
+    "driversExcluded":  false,
+    "qualityUpdatesDeferralPeriodInDays":  0,
+    "featureUpdatesDeferralPeriodInDays":  60,
+    "qualityUpdatesPaused":  false,
+    "featureUpdatesPaused":  false,
+    "qualityUpdatesPauseExpiryDateTime":  "0001-01-01T00:00:00Z",
+    "featureUpdatesPauseExpiryDateTime":  "0001-01-01T00:00:00Z",
+    "businessReadyUpdatesOnly":  "businessReadyOnly",
+    "skipChecksBeforeRestart":  false,
+    "updateWeeks":  null,
+    "qualityUpdatesPauseStartDate":  null,
+    "featureUpdatesPauseStartDate":  null,
+    "featureUpdatesRollbackWindowInDays":  10,
+    "qualityUpdatesWillBeRolledBack":  null,
+    "featureUpdatesWillBeRolledBack":  null,
+    "qualityUpdatesRollbackStartDateTime":  "0001-01-01T00:00:00Z",
+    "featureUpdatesRollbackStartDateTime":  "0001-01-01T00:00:00Z",
+    "engagedRestartDeadlineInDays":  null,
+    "engagedRestartSnoozeScheduleInDays":  null,
+    "engagedRestartTransitionScheduleInDays":  null,
+    "deadlineForFeatureUpdatesInDays":  null,
+    "deadlineForQualityUpdatesInDays":  null,
+    "deadlineGracePeriodInDays":  null,
+    "postponeRebootUntilAfterDeadline":  null,
+    "autoRestartNotificationDismissal":  "notConfigured",
+    "scheduleRestartWarningInHours":  4,
+    "scheduleImminentRestartWarningInMinutes":  15,
+    "userPauseAccess":  "disabled",
+    "userWindowsUpdateScanAccess":  "enabled",
+    "updateNotificationLevel":  "defaultNotifications",
+    "installationSchedule":  {
+                                 "@odata.type":  "#microsoft.graph.windowsUpdateActiveHoursInstall",
+                                 "activeHoursStart":  "08:00:00.0000000",
+                                 "activeHoursEnd":  "17:00:00.0000000"
+                             },
+    "assignments@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceConfigurations(\u002737a76f8e-05e8-49f8-ad86-63d4aec56caa\u0027)/microsoft.graph.windowsUpdateForBusinessConfiguration/assignments",
+    "assignments":  [
+                        {
+                            "id":  "37a76f8e-05e8-49f8-ad86-63d4aec56caa_c6037ad7-8d89-4be5-a331-be39d6ea551b",
+                            "source":  "direct",
+                            "sourceId":  "37a76f8e-05e8-49f8-ad86-63d4aec56caa",
+                            "target":  {
+                                           "@odata.type":  "#microsoft.graph.groupAssignmentTarget",
+                                           "deviceAndAppManagementAssignmentFilterId":  null,
+                                           "deviceAndAppManagementAssignmentFilterType":  "none",
+                                           "groupId":  "group-paw-global-software-updates-win10-update-ring-broad"
+                                       }
+                        }
+                    ]
+}

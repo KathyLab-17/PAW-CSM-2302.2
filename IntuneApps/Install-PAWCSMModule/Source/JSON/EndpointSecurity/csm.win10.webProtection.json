@@ -1,0 +1,49 @@
+{
+  "displayName": "PAW-Global-{PAWCSMVersion}-Windows-10-above-Web-Protection",
+  "description": "",
+  "roleScopeTagIds": [
+    "{tag-paw-csm}"
+  ],
+  "Assignments": [
+    {
+      "target": {
+        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+        "deviceAndAppManagementAssignmentFilterId": null,
+        "deviceAndAppManagementAssignmentFilterType": "none",
+        "groupId": "group-paw-global-devices"
+      }
+    }
+  ],
+  "TemplateDisplayName": "Web protection",
+  "TemplateId": "72a62602-80d7-4e0e-a680-9a6ee84d019d",
+  "settingsDelta": [
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
+      "id": "cf7e9804-c5d2-490e-b695-238bfd4dbf02",
+      "definitionId": "deviceConfiguration--windows10GeneralConfiguration_smartScreenBlockPromptOverrideForFiles",
+      "valueJson": "true",
+      "value": true
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
+      "id": "09afac1c-c45b-4c76-a7ae-631f12a4ac43",
+      "definitionId": "deviceConfiguration--windows10GeneralConfiguration_edgeRequireSmartScreen",
+      "valueJson": "true",
+      "value": true
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
+      "id": "e53bf5a2-42c9-4f9d-9a2d-66eda8fab039",
+      "definitionId": "deviceConfiguration--windows10GeneralConfiguration_smartScreenBlockPromptOverride",
+      "valueJson": "true",
+      "value": true
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
+      "id": "ef640d00-80e2-4b23-b907-debf36c54771",
+      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_defenderNetworkProtectionType",
+      "valueJson": "\"notConfigured\"",
+      "value": "notConfigured"
+    }
+  ]
+}

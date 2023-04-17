@@ -1,0 +1,270 @@
+{
+	"settings": {
+		"PAWCSMVersion": "2302",
+		"TagJSONPath": "[PROJECTPATH]\\JSON\\RBAC",
+		"UserJSONPath": "[PROJECTPATH]\\JSON\\Users\\csm.users.json",
+		"GroupJSONPath": "[PROJECTPATH]\\JSON\\Groups\\csm.groups.json",
+		"IntuneAppPath": "[PROJECTPATH]\\IntuneApps",
+		"controlPlaneIdentifier": "-cp",
+		"managementPlaneIdentifier": "-mp",
+		"dataPlaneIdentifier": "-dp",
+		"accessPlaneIdentifier": "-ap"
+	},
+	"commandList": [
+		{
+			"command": "Import-AADUserList",
+			"parameters": {
+				"JSONFileList": [
+					"[PROJECTPATH]\\json\\users\\csm.users.json"
+				]
+			},
+			"scopeList": [
+				"User.ReadWrite.All",
+				"Directory.Read.All"
+			]
+		},
+		{
+			"command": "Import-AADGroupList",
+			"parameters": {
+				"JSONFileList": [
+					"[PROJECTPATH]\\json\\groups\\csm.groups.json"
+				]
+			},
+			"scopeList": [
+				"Directory.AccessAsUser.All"
+			]
+		},
+		{
+			"command": "Import-IntuneRoleScopeTagList",
+			"parameters": {
+				"JSONFileList": [
+					"[PROJECTPATH]\\json\\RBAC\\csm.tag.csmAdmin.json",
+					"[PROJECTPATH]\\json\\RBAC\\csm.tag.eudAdmin.json"
+				]
+			},
+			"scopeList": [
+				"DeviceManagementRBAC.ReadWrite.All"
+			]
+		},
+		{
+			"command": "Import-NamedLocationList",
+			"parameters": {
+				"JSONFileList": [
+					"[PROJECTPATH]\\json\\ConditionalAccessPolicy\\csm.namedLocation.pawCountryBlockList.json"
+				]
+			},
+			"scopeList": [
+				"Policy.Read.All",
+				"Policy.ReadWrite.ConditionalAccess"
+			]
+		},
+		{
+			"command": "Import-ConditionalAccessPolicyList",
+			"parameters": {
+				"JSONFileList": [
+					"[PROJECTPATH]\\json\\ConditionalAccessPolicy\\csm.allow.MFAandCompliantDevice.json",
+					"[PROJECTPATH]\\json\\ConditionalAccessPolicy\\csm.block.deviceFilter.json",
+					"[PROJECTPATH]\\json\\ConditionalAccessPolicy\\csm.block.legacyAuth.json",
+					"[PROJECTPATH]\\json\\ConditionalAccessPolicy\\csm.block.unsupportedOS.json",
+					"[PROJECTPATH]\\json\\ConditionalAccessPolicy\\csm.block.unsupportedSigninLocation.json",
+					"[PROJECTPATH]\\json\\ConditionalAccessPolicy\\csm.block.unsupportedSignInRisk.json",
+					"[PROJECTPATH]\\json\\ConditionalAccessPolicy\\csm.block.unsupportedUserRisk.json",
+					"[PROJECTPATH]\\json\\ConditionalAccessPolicy\\csm.allow.MFAAADJoin.json",
+					"[PROJECTPATH]\\json\\ConditionalAccessPolicy\\csm.allow.SessionManagement.json"
+				]
+			},
+			"scopeList": [
+				"Policy.Read.All",
+				"Policy.ReadWrite.ConditionalAccess"
+			]
+		},
+		{
+			"command": "Import-DeviceEnrollmentRestrictionList",
+			"parameters": {
+				"JSONFileList": [
+					"[PROJECTPATH]\\json\\DeviceEnrollmentRestrictions\\csm.globalIntuneEnrollmentDeviceLimitRestrictions.json",
+					"[PROJECTPATH]\\json\\DeviceEnrollmentRestrictions\\csm.globalIntuneEnrollmentDeviceiOSRestrictions.json",
+					"[PROJECTPATH]\\json\\DeviceEnrollmentRestrictions\\csm.globalIntuneEnrollmentDeviceAndroidRestrictions.json",
+					"[PROJECTPATH]\\json\\DeviceEnrollmentRestrictions\\csm.globalIntuneEnrollmentDeviceAndroidForWorkRestrictions.json",
+					"[PROJECTPATH]\\json\\DeviceEnrollmentRestrictions\\csm.globalIntuneEnrollmentDeviceWindowsRestrictions.json",
+					"[PROJECTPATH]\\json\\DeviceEnrollmentRestrictions\\csm.globalIntuneEnrollmentDeviceMacOSRestrictions.json"
+				]
+			},
+			"scopeList": [
+				"DeviceManagementConfiguration.ReadWrite.All"
+			]
+		},
+		{
+			"command": "Import-DeviceConfigurationList",
+			"parameters": {
+				"JSONFileList": [
+					"[PROJECTPATH]\\json\\DeviceConfiguration\\csm.win10LocalGroupMemberships.json",
+					"[PROJECTPATH]\\json\\DeviceConfiguration\\csm.win10AppLockerCSP.json",
+					"[PROJECTPATH]\\json\\DeviceConfiguration\\csm.win10SystemHardeningDeviceRestrictionsUI.json",
+					"[PROJECTPATH]\\json\\DeviceConfiguration\\csm.win10UpdateRingBroad.json"
+				]
+			},
+			"scopeList": [
+				"DeviceManagementConfiguration.ReadWrite.All"
+			]
+		},
+		{
+			"command": "Import-DeviceConfigurationADMXList",
+			"parameters": {
+				"JSONFileList": [
+					"[PROJECTPATH]\\json\\DeviceConfigurationADMX\\csm.edge.computer.json"
+				]
+			},
+			"scopeList": [
+				"DeviceManagementConfiguration.ReadWrite.All"
+			]
+		},
+		{
+			"command": "Import-DeviceCompliancePolicyList",
+			"parameters": {
+				"JSONFileList": [
+					"[PROJECTPATH]\\json\\DeviceCompliancePolicies\\csm.mde.json",
+					"[PROJECTPATH]\\json\\DeviceCompliancePolicies\\csm.delayed.json",
+					"[PROJECTPATH]\\json\\DeviceCompliancePolicies\\csm.immediate.json"
+				]
+			},
+			"scopeList": [
+				"DeviceManagementConfiguration.ReadWrite.All"
+			]
+		},
+		{
+			"command": "Import-DeviceSettingsCatalog",
+			"parameters": {
+				"JSONFileList": [
+					"[PROJECTPATH]\\json\\DeviceSettingsCatalog\\csm.sinkholeproxyfqdnlist.json",
+					"[PROJECTPATH]\\json\\DeviceSettingsCatalog\\csm.wfasfqdnconfig.json",
+					"[PROJECTPATH]\\json\\DeviceSettingsCatalog\\csm.win10Edge.json",
+					"[PROJECTPATH]\\json\\DeviceSettingsCatalog\\csm.win11SystemHardening.json"
+				]
+			},
+			"scopeList": [
+				"DeviceManagementConfiguration.ReadWrite.All"
+			]
+		},
+		{
+			"command": "Import-StoreAppsAADGroupAssignmentList",
+			"parameters": {
+				"JSONFileList": [
+					"[PROJECTPATH]\\json\\StoreAppsAssignment\\csm.settings.json"
+				]
+			},
+			"scopeList": [
+				"DeviceManagementConfiguration.ReadWrite.All"
+			]
+		},
+		{
+			"command": "Import-IntuneApplicationList",
+			"parameters": {
+				"JSONFileList": [
+					"[PROJECTPATH]\\IntuneApps\\Install-BGInfo\\config.json",
+					"[PROJECTPATH]\\IntuneApps\\Install-SetBDEPinTool_v1-5\\config.json",
+					"[PROJECTPATH]\\IntuneApps\\Set-DeviceConfigPAWCSM\\config.json",
+					"[PROJECTPATH]\\IntuneApps\\Install-PowerShellModules\\config.json",
+					"[PROJECTPATH]\\IntuneApps\\Install-PAWCSMModule\\config.json"
+				]
+			},
+			"scopeList": [
+				"DeviceManagementApps.ReadWrite.All"
+			]
+		},
+		{
+			"command": "Import-AutoPilotPolicyList",
+			"parameters": {
+				"JSONFileList": [
+					"[PROJECTPATH]\\json\\AutoPilot\\csm.profile.json"
+				]
+			},
+			"scopeList": [
+				"DeviceManagementServiceConfig.ReadWrite.All"
+			]
+		},
+		{
+			"command": "Import-EnrollmentStatusPageList",
+			"parameters": {
+				"JSONFileList": [
+					"[PROJECTPATH]\\json\\EnrollmentStatusPage\\csm.enrollmentStatusPage.json"
+				]
+			},
+			"scopeList": [
+				"DeviceManagementConfiguration.ReadWrite.All"
+			]
+		},
+		{
+			"command": "Import-EndpointSecurityPolicyList",
+			"parameters": {
+				"JSONFileList": [
+					"[PROJECTPATH]\\JSON\\EndpointSecurity\\csm.win10.accountProtection.json",
+					"[PROJECTPATH]\\JSON\\EndpointSecurity\\csm.win10.applicationControl.json",
+					"[PROJECTPATH]\\JSON\\EndpointSecurity\\csm.win10.attackSurfaceReduction.json",
+					"[PROJECTPATH]\\JSON\\EndpointSecurity\\csm.win10.bitlocker.json",
+					"[PROJECTPATH]\\JSON\\EndpointSecurity\\csm.win10.defenderAntiVirus.json",
+					"[PROJECTPATH]\\JSON\\EndpointSecurity\\csm.win10.deviceControl.json",
+					"[PROJECTPATH]\\JSON\\EndpointSecurity\\csm.win10.defenderFirewallPolicy.json",
+					"[PROJECTPATH]\\JSON\\EndpointSecurity\\csm.win10.endpointDetectionAndResponse.json",
+					"[PROJECTPATH]\\JSON\\EndpointSecurity\\csm.win10.SecurityCenter.json",
+					"[PROJECTPATH]\\JSON\\EndpointSecurity\\csm.win10.webProtection.json"
+				]
+			},
+			"scopeList": [
+				"DeviceManagementConfiguration.ReadWrite.All"
+			]
+		},
+		{
+			"command": "Import-ProactiveRemediationScripts",
+			"parameters": {
+				"JSONFileList": [
+					"[PROJECTPATH]\\RemediationScripts\\Remove-Microsoft-OneDrive\\config.json",
+					"[PROJECTPATH]\\RemediationScripts\\Fix-Service-Paths\\config.json",
+					"[PROJECTPATH]\\RemediationScripts\\Remove-Microsoft-News-And-Interests\\config.json",
+					"[PROJECTPATH]\\RemediationScripts\\Remove-Microsoft-Teams\\config.json",
+					"[PROJECTPATH]\\RemediationScripts\\Remove-Microsoft-Widgets\\config.json",
+					"[PROJECTPATH]\\RemediationScripts\\Remove-Microsoft-Office-Hub\\config.json",
+					"[PROJECTPATH]\\RemediationScripts\\Remove-Microsoft-People\\config.json",
+					"[PROJECTPATH]\\RemediationScripts\\Remove-Microsoft-Solitaire-Collection\\config.json"
+				]
+			},
+      		"scopeList": [
+				"DeviceManagementConfiguration.ReadWrite.All"
+			]
+   		},
+    	{
+      		"command": "Import-IntuneRBACRoleList",
+			"parameters": {
+				"JSONFileList": [
+					"[PROJECTPATH]\\json\\IntuneRBAC\\csm.role.PAW-CSM-Intune-Admin.json",
+					"[PROJECTPATH]\\json\\IntuneRBAC\\csm.role.EUD-Intune-Admin.json"
+				]
+      		},
+      		"scopeList": [
+				"DeviceManagementRBAC.ReadWrite.All"
+			]
+    	},
+    	{
+			"command": "Import-IntuneRBACAADGroupList",
+			"parameters": {
+				"JSONFileList": [
+					"[PROJECTPATH]\\json\\IntuneRBAC\\csm.role.groups.json"
+				]
+      		},
+      		"scopeList": [
+				"Directory.AccessAsUser.All"
+			]
+    	},
+		{
+			"command": "Import-NewStoreAppsList",
+			"parameters": {
+				"JSONFileList": [
+					"[PROJECTPATH]\\JSON\\StoreAppsNew\\csm.settings.json"
+				]
+			},
+      		"scopeList": [
+				"DeviceManagementConfiguration.ReadWrite.All"
+			]
+    	}
+	]
+}

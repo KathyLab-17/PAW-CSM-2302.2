@@ -1,0 +1,20 @@
+{
+  "$schema": "./../pawintuneapp.schema.json",
+  "appType": "PS1",
+  "ruleType": "TAGFILE",
+  "returnCodeType": "DEFAULT",
+  "installExperience": "System",
+  "packageName": "Set-PasswordLessPolicies",
+  "packagePath": "",
+  "displayName": "MCS Set Passwordless Policy Registry Settings",
+  "description": "Used to remove Password Credential Provider from being displayed and Require Smartcard Interactive Logon",
+  "publisher": "Microsoft Consulting Services",
+  "category": "Business",
+  "logoFile": "MSLogo.png",
+  "coreApp": true,
+  "espApp": true,
+  "requiredgroup": "group-paw-global-apps-set-passwordless-policies-required",
+  "availablegroup": "group-paw-global-apps-set-passwordless-policies-available",
+  "uninstallgroup": "group-paw-global-apps-set-passwordless-policies-uninstall",
+  "scopetag": "PAW-CSM"
+}

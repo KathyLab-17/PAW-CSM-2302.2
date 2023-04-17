@@ -1,0 +1,32 @@
+[  
+  {
+    "DisplayName": "PAW-CSM-Apps-PowerShell-Modules-User-Available",
+    "Description": "Group used to assign Cloud Mgmt PS Modules.",
+    "Id": "group-paw-csm-apps-powershell-modules-user-available",
+    "MemberRef": ["paw-csm-users"],
+    "Rule": "Static",
+    "IsAssignableToRole": false,
+    "ProtectedGroup": true,
+    "IsAppGroup": true
+  },
+  {
+    "DisplayName": "PAW-CSM-Apps-PowerShell-Modules-User-Uninstall",
+    "Description": "Group used to assign Cloud Mgmt PS Modules.",
+    "Id": "group-paw-csm-apps-powershell-modules-user-uninstall",
+    "MemberRef": [],
+    "Rule": "Static",
+    "IsAssignableToRole": false,
+    "ProtectedGroup": true,
+    "IsAppGroup": true
+  },
+  {
+    "DisplayName": "PAW-CSM-Apps-PowerShell-Modules-User-Required",
+    "Description": "Group used to assign GIT for Windows app.",
+    "Id": "group-paw-csm-apps-powershell-modules-user-Required",
+    "MemberRef": [],
+    "Rule": "Static",
+    "IsAssignableToRole": false,
+    "ProtectedGroup": true,
+    "IsAppGroup": true
+  }
+]

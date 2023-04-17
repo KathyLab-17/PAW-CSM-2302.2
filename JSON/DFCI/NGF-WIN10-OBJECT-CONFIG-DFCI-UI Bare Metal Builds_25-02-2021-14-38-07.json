@@ -1,0 +1,21 @@
+{
+    "@odata.type": "#microsoft.graph.windows10DeviceFirmwareConfigurationInterface",
+    "id": "22c4bd7a-7e22-4692-ab38-f0063f045b78",
+    "lastModifiedDateTime": "2020-07-21T13:01:33.9884526Z",
+    "roleScopeTagIds": ["{tag-paw-csm}"],
+    "supportsScopeTags": true,
+    "deviceManagementApplicabilityRuleOsEdition": null,
+    "deviceManagementApplicabilityRuleOsVersion": null,
+    "deviceManagementApplicabilityRuleDeviceMode": null,
+    "createdDateTime": "2020-07-21T12:59:39.5415403Z",
+    "description": "Policy to configure relaxed DFCI policy for devices that support it, but allow Boot from USB and Boot from Network for bare metal builds.",
+    "displayName": "WIN10-OBJECT-CONFIG-DFCI-UI Bare Metal Builds",
+    "version": 2,
+    "changeUefiSettingsPermission": "none",
+    "virtualizationOfCpuAndIO": "enabled",
+    "cameras": "enabled",
+    "microphonesAndSpeakers": "enabled",
+    "radios": "enabled",
+    "bootFromExternalMedia": "enabled",
+    "bootFromBuiltInNetworkAdapters": "enabled"
+}

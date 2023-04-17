@@ -1,0 +1,380 @@
+[
+  {
+    "packageName": "Clipchamp - Video Editor",
+    "AppId": "9P1J8S7CCWWT",
+    "groupIdToAdd": "group-paw-csm-devices",
+    "assignmentType": "uninstall",
+    "installExperience":{"runAsAccount":"system"},
+    "appType": "WinGet",
+    "roleScopeTagIds": ["{tag-paw-csm}"]
+  },
+  {
+    "packageName": "3D Viewer",
+    "AppId": "9NBLGGH42THS",
+    "groupIdToAdd": "group-paw-csm-devices",
+    "assignmentType": "uninstall",
+    "installExperience":{"runAsAccount":"system"},
+    "appType": "WinGet",
+    "roleScopeTagIds": ["{tag-paw-csm}"]
+  },
+  {
+    "packageName": "Company Portal",
+    "AppId": "9WZDNCRFJ3PZ",
+    "groupIdToAdd": "group-paw-csm-devices",
+    "assignmentType": "required",
+    "installExperience":{"runAsAccount":"system"},
+    "appType": "WinGet",
+    "roleScopeTagIds": ["{tag-paw-csm}"]
+  },
+  {
+    "packageName": "Windows Media Player",
+    "AppId": "9WZDNCRFJ3PT",
+    "groupIdToAdd": "group-paw-csm-devices",
+    "assignmentType": "uninstall",
+    "installExperience":{"runAsAccount":"system"},
+    "appType": "WinGet",
+    "roleScopeTagIds": ["{tag-paw-csm}"]
+  },
+  {
+    "packageName": "Mail and Calendar",
+    "AppId": "9WZDNCRFHVQM",
+    "groupIdToAdd": "group-paw-csm-devices",
+    "assignmentType": "uninstall",
+    "installExperience":{"runAsAccount":"system"},
+    "appType": "WinGet",
+    "roleScopeTagIds": ["{tag-paw-csm}"]
+  },
+  {
+    "packageName": "Microsoft Messaging",
+    "AppId": "9WZDNCRFJBQ6",
+    "groupIdToAdd": "group-paw-csm-devices",
+    "assignmentType": "uninstall",
+    "installExperience":{"runAsAccount":"system"},
+    "appType": "WinGet",
+    "roleScopeTagIds": ["{tag-paw-csm}"]
+  },
+  {
+    "packageName": "Microsoft News",
+    "AppId": "9WZDNCRFHVFW",
+    "groupIdToAdd": "group-paw-csm-devices",
+    "assignmentType": "uninstall",
+    "installExperience":{"runAsAccount":"system"},
+    "appType": "WinGet",
+    "roleScopeTagIds": ["{tag-paw-csm}"]
+  },
+  {
+    "packageName": "Microsoft Photos",
+    "AppId": "9WZDNCRFJBH4",
+    "groupIdToAdd": "group-paw-csm-devices",
+    "assignmentType": "uninstall",
+    "installExperience":{"runAsAccount":"system"},
+    "appType": "WinGet",
+    "roleScopeTagIds": ["{tag-paw-csm}"]
+  },
+  {
+    "packageName": "Microsoft Sticky Notes",
+    "AppId": "9NBLGGH4QGHW",
+    "groupIdToAdd": "group-paw-csm-devices",
+    "assignmentType": "uninstall",
+    "installExperience":{"runAsAccount":"system"},
+    "appType": "WinGet",
+    "roleScopeTagIds": ["{tag-paw-csm}"]
+  },
+  {
+    "packageName": "Microsoft Tips",
+    "AppId": "9WZDNCRDTBJJ",
+    "groupIdToAdd": "group-paw-csm-devices",
+    "assignmentType": "uninstall",
+    "installExperience":{"runAsAccount":"system"},
+    "appType": "WinGet",
+    "roleScopeTagIds": ["{tag-paw-csm}"]
+  },
+  {
+    "packageName": "Mixed Reality Portal",
+    "AppId": "9NG1H8B3ZC7M",
+    "groupIdToAdd": "group-paw-csm-devices",
+    "assignmentType": "uninstall",
+    "installExperience":{"runAsAccount":"system"},
+    "appType": "WinGet",
+    "roleScopeTagIds": ["{tag-paw-csm}"]
+  },
+  {
+    "packageName": "Mobile Plans",
+    "AppId": "9NBLGGH5PNB1",
+    "groupIdToAdd": "group-paw-csm-devices",
+    "assignmentType": "uninstall",
+    "installExperience":{"runAsAccount":"system"},
+    "appType": "WinGet",
+    "roleScopeTagIds": ["{tag-paw-csm}"]
+  },
+  {
+    "packageName": "MSN Weather",
+    "AppId": "9WZDNCRFJ3Q2",
+    "groupIdToAdd": "group-paw-csm-devices",
+    "assignmentType": "uninstall",
+    "installExperience":{"runAsAccount":"system"},
+    "appType": "WinGet",
+    "roleScopeTagIds": ["{tag-paw-csm}"]
+  },
+  {
+    "packageName": "Paint 3D",
+    "AppId": "9NBLGGH5FV99",
+    "groupIdToAdd": "group-paw-csm-devices",
+    "assignmentType": "uninstall",
+    "installExperience":{"runAsAccount":"system"},
+    "appType": "WinGet",
+    "roleScopeTagIds": ["{tag-paw-csm}"]
+  },
+  {
+    "packageName": "Phone Link",
+    "AppId": "9NMPJ99VJBWV",
+    "groupIdToAdd": "group-paw-csm-devices",
+    "assignmentType": "uninstall",
+    "installExperience":{"runAsAccount":"system"},
+    "appType": "WinGet",
+    "roleScopeTagIds": ["{tag-paw-csm}"]
+  },
+  {
+    "packageName": "Snipping Tool",
+    "AppId": "9MZ95KL8MR0L",
+    "groupIdToAdd": "group-paw-csm-devices",
+    "assignmentType": "uninstall",
+    "installExperience":{"runAsAccount":"system"},
+    "appType": "WinGet",
+    "roleScopeTagIds": ["{tag-paw-csm}"]
+  },
+  {
+    "packageName": "Surface",
+    "AppId": "9WZDNCRFJB8P",
+    "groupIdToAdd": "group-paw-csm-devices",
+    "assignmentType": "uninstall",
+    "installExperience":{"runAsAccount":"system"},
+    "appType": "WinGet",
+    "roleScopeTagIds": ["{tag-paw-csm}"]
+  },
+  {
+    "packageName": "Sway",
+    "AppId": "9WZDNCRD2G0J",
+    "groupIdToAdd": "group-paw-csm-devices",
+    "assignmentType": "uninstall",
+    "installExperience":{"runAsAccount":"system"},
+    "appType": "WinGet",
+    "roleScopeTagIds": ["{tag-paw-csm}"]
+  },
+  {
+    "packageName": "Windows Clock",
+    "AppId": "9WZDNCRFJ3PR",
+    "groupIdToAdd": "group-paw-csm-devices",
+    "assignmentType": "uninstall",
+    "installExperience":{"runAsAccount":"system"},
+    "appType": "WinGet",
+    "roleScopeTagIds": ["{tag-paw-csm}"]
+  },
+  {
+    "packageName": "Windows Calculator",
+    "AppId": "9WZDNCRFHVN5",
+    "groupIdToAdd": "group-paw-csm-devices",
+    "assignmentType": "uninstall",
+    "installExperience":{"runAsAccount":"system"},
+    "appType": "WinGet",
+    "roleScopeTagIds": ["{tag-paw-csm}"]
+  },
+  {
+    "packageName": "Windows Camera",
+    "AppId": "9WZDNCRFJBBG",
+    "groupIdToAdd": "group-paw-csm-devices",
+    "assignmentType": "uninstall",
+    "installExperience":{"runAsAccount":"system"},
+    "appType": "WinGet",
+    "roleScopeTagIds": ["{tag-paw-csm}"]
+  },
+  {
+    "packageName": "Windows Maps",
+    "AppId": "9WZDNCRDTBVB",
+    "groupIdToAdd": "group-paw-csm-devices",
+    "assignmentType": "uninstall",
+    "installExperience":{"runAsAccount":"system"},
+    "appType": "WinGet",
+    "roleScopeTagIds": ["{tag-paw-csm}"]
+  },
+  {
+    "packageName": "Windows Sound Recorder",
+    "AppId": "9WZDNCRFHWKN",
+    "groupIdToAdd": "group-paw-csm-devices",
+    "assignmentType": "uninstall",
+    "installExperience":{"runAsAccount":"system"},
+    "appType": "WinGet",
+    "roleScopeTagIds": ["{tag-paw-csm}"]
+  },
+  {
+    "packageName": "Microsoft Wireless Display Adapter",
+    "AppId": "9WZDNCRFJBB1",
+    "groupIdToAdd": "group-paw-csm-devices",
+    "assignmentType": "uninstall",
+    "installExperience":{"runAsAccount":"system"},
+    "appType": "WinGet",
+    "roleScopeTagIds": ["{tag-paw-csm}"]
+  },
+  {
+    "packageName": "Xbox Console Companion",
+    "AppId": "9WZDNCRFJBD8",
+    "groupIdToAdd": "group-paw-csm-devices",
+    "assignmentType": "uninstall",
+    "installExperience":{"runAsAccount":"system"},
+    "appType": "WinGet",
+    "roleScopeTagIds": ["{tag-paw-csm}"]
+  },
+  {
+    "packageName": "Xbox Game Bar",
+    "AppId": "9NZKPSTSNW4P",
+    "groupIdToAdd": "group-paw-csm-devices",
+    "assignmentType": "uninstall",
+    "installExperience":{"runAsAccount":"system"},
+    "appType": "WinGet",
+    "roleScopeTagIds": ["{tag-paw-csm}"]
+  },
+  {
+    "packageName": "Excel Mobile",
+    "AppId": "9WZDNCRFJBH3",
+    "groupIdToAdd": "group-paw-csm-devices",
+    "assignmentType": "uninstall",
+    "installExperience":{"runAsAccount":"system"},
+    "appType": "WinGet",
+    "roleScopeTagIds": ["{tag-paw-csm}"]
+  },
+  {
+    "packageName": "Feedback Hub",
+    "AppId": "9NBLGGH4R32N",
+    "groupIdToAdd": "group-paw-csm-devices",
+    "assignmentType": "uninstall",
+    "installExperience":{"runAsAccount":"system"},
+    "appType": "WinGet",
+    "roleScopeTagIds": ["{tag-paw-csm}"]
+  },
+  {
+    "packageName": "OneDrive",
+    "AppId": "9WZDNCRFJ1P3",
+    "groupIdToAdd": "group-paw-csm-devices",
+    "assignmentType": "uninstall",
+    "installExperience":{"runAsAccount":"system"},
+    "appType": "WinGet",
+    "roleScopeTagIds": ["{tag-paw-csm}"]
+  },
+  {
+    "packageName": "OneNote for Windows 10",
+    "AppId": "9WZDNCRFHVJL",
+    "groupIdToAdd": "group-paw-csm-devices",
+    "assignmentType": "uninstall",
+    "installExperience":{"runAsAccount":"system"},
+    "appType": "WinGet",
+    "roleScopeTagIds": ["{tag-paw-csm}"]
+  },
+  {
+    "packageName": "Print 3D",
+    "AppId": "9PBPCH085S3S",
+    "groupIdToAdd": "group-paw-csm-devices",
+    "assignmentType": "uninstall",
+    "installExperience":{"runAsAccount":"system"},
+    "appType": "WinGet",
+    "roleScopeTagIds": ["{tag-paw-csm}"]
+  },
+  {
+    "packageName": "Word Mobile",
+    "AppId": "9WZDNCRFJB9S",
+    "groupIdToAdd": "group-paw-csm-devices",
+    "assignmentType": "uninstall",
+    "installExperience":{"runAsAccount":"system"},
+    "appType": "WinGet",
+    "roleScopeTagIds": ["{tag-paw-csm}"]
+  },
+  {
+    "packageName": "Xbox",
+    "AppId": "9MV0B5HZVK9Z",
+    "groupIdToAdd": "group-paw-csm-devices",
+    "assignmentType": "uninstall",
+    "installExperience":{"runAsAccount":"system"},
+    "appType": "WinGet",
+    "roleScopeTagIds": ["{tag-paw-csm}"]
+  },
+  {
+    "packageName": "Microsoft To Do: Lists, Tasks & Reminders",
+    "AppId": "9NBLGGH5R558",
+    "groupIdToAdd": "group-paw-csm-devices",
+    "assignmentType": "uninstall",
+    "installExperience":{"runAsAccount":"system"},
+    "appType": "WinGet",
+    "roleScopeTagIds": ["{tag-paw-csm}"]
+  },
+  {
+    "packageName": "Movies & TV",
+    "AppId": "9WZDNCRFJ3P2",
+    "groupIdToAdd": "group-paw-csm-devices",
+    "assignmentType": "uninstall",
+    "installExperience":{"runAsAccount":"system"},
+    "appType": "WinGet",
+    "roleScopeTagIds": ["{tag-paw-csm}"]
+  },
+  {
+    "packageName": "Microsoft Whiteboard",
+    "AppId": "9MSPC6MP8FM4",
+    "groupIdToAdd": "group-paw-csm-devices",
+    "assignmentType": "uninstall",
+    "installExperience":{"runAsAccount":"system"},
+    "appType": "WinGet",
+    "roleScopeTagIds": ["{tag-paw-csm}"]
+  },
+  {
+    "packageName": "Cortana",
+    "AppId": "9NFFX4SZZ23L",
+    "groupIdToAdd": "group-paw-csm-devices",
+    "assignmentType": "uninstall",
+    "installExperience":{"runAsAccount":"system"},
+    "appType": "WinGet",
+    "roleScopeTagIds": ["{tag-paw-csm}"]
+  },
+  {
+    "packageName": "PowerPoint Mobile",
+    "AppId": "9WZDNCRFJB5Q",
+    "groupIdToAdd": "group-paw-csm-devices",
+    "assignmentType": "uninstall",
+    "installExperience":{"runAsAccount":"system"},
+    "appType": "WinGet",
+    "roleScopeTagIds": ["{tag-paw-csm}"]
+  },
+  {
+    "packageName": "Skype",
+    "AppId": "9WZDNCRFJ364",
+    "groupIdToAdd": "group-paw-csm-devices",
+    "assignmentType": "uninstall",
+    "installExperience":{"runAsAccount":"system"},
+    "appType": "WinGet",
+    "roleScopeTagIds": ["{tag-paw-csm}"]
+  },
+  {
+    "packageName": "Get Help",
+    "AppId": "9PKDZBMV1H3T",
+    "groupIdToAdd": "group-paw-csm-devices",
+    "assignmentType": "uninstall",
+    "installExperience":{"runAsAccount":"system"},
+    "appType": "WinGet",
+    "roleScopeTagIds": ["{tag-paw-csm}"]
+  },
+  {
+    "packageName": "Quick Assist",
+    "AppId": "9P7BP5VNWKX5",
+    "groupIdToAdd": "group-paw-csm-devices",
+    "assignmentType": "uninstall",
+    "installExperience":{"runAsAccount":"system"},
+    "appType": "WinGet",
+    "roleScopeTagIds": ["{tag-paw-csm}"]
+  },
+  {
+    "packageName": "Power Automate",
+    "AppId": "9NFTCH6J7FHV",
+    "groupIdToAdd": "group-paw-csm-devices",
+    "assignmentType": "uninstall",
+    "installExperience":{"runAsAccount":"system"},
+    "appType": "WinGet",
+    "roleScopeTagIds": ["{tag-paw-csm}"]
+  }
+]

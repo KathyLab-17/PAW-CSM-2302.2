@@ -1,0 +1,40 @@
+{
+  "displayName": "PAW-Global-{PAWCSMVersion}-Windows-10-above-Defender-for-Endpoint",
+  "description": "",
+  "roleScopeTagIds": ["{tag-paw-csm}"],
+  "Assignments": [
+    {
+      "target": {
+        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+        "deviceAndAppManagementAssignmentFilterId": null,
+        "deviceAndAppManagementAssignmentFilterType": "none",
+        "groupId": "group-paw-global-devices"
+      }
+    }
+  ],
+  "TemplateDisplayName": "Endpoint detection and response",
+  "TemplateId": "e44c2ca3-2f9a-400a-a113-6cc88efd773d",
+  "settingsDelta": [
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
+      "id": "05303932-e592-4e05-a616-c08d4a9bad7c",
+      "definitionId": "deviceConfiguration--windowsDefenderAdvancedThreatProtectionConfiguration_advancedThreatProtectionAutoPopulateOnboardingBlob",
+      "valueJson": "true",
+      "value": true
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
+      "id": "72a6fd81-9bff-48f8-b338-9a13570f2d29",
+      "definitionId": "deviceConfiguration--windowsDefenderAdvancedThreatProtectionConfiguration_allowSampleSharing",
+      "valueJson": "true",
+      "value": true
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
+      "id": "11155ec8-1c17-4f20-b9a9-2442a2b393c8",
+      "definitionId": "deviceConfiguration--windowsDefenderAdvancedThreatProtectionConfiguration_enableExpeditedTelemetryReporting",
+      "valueJson": "true",
+      "value": true
+    }
+  ]
+}

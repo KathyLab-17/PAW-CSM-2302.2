@@ -1,0 +1,40 @@
+{
+  "displayName": "PAW-Global-{PAWCSMVersion}-Windows-10-above-Application-Control",
+  "description": "",
+  "roleScopeTagIds": ["{tag-paw-csm}"],
+  "Assignments": [
+    {
+      "target": {
+        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+        "deviceAndAppManagementAssignmentFilterId": null,
+        "deviceAndAppManagementAssignmentFilterType": "none",
+        "groupId": "group-paw-global-devices"
+      }
+    }
+  ],
+  "TemplateDisplayName": "Application control",
+  "TemplateId": "63be6324-e3c9-4c97-948a-e7f4b96f0f20",
+  "settingsDelta": [
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
+      "id": "8896d644-594f-4636-9a10-8c13f00ec986",
+      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_appLockerApplicationControl",
+      "valueJson": "\"notConfigured\"",
+      "value": "notConfigured"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
+      "id": "d663d764-a580-4f08-ad53-e6e385b019ab",
+      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_smartScreenBlockOverrideForFiles",
+      "valueJson": "true",
+      "value": true
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
+      "id": "6e8ee861-4a59-49c6-9f01-c50f6caee93a",
+      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_smartScreenEnableInShell",
+      "valueJson": "true",
+      "value": true
+    }
+  ]
+}

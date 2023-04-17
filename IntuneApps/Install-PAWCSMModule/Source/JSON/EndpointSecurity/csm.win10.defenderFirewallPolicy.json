@@ -1,0 +1,348 @@
+{
+  "displayName": "PAW-Global-{PAWCSMVersion}-Windows-10-above-Microsoft-Defender-Firewall",
+  "description": "",
+  "roleScopeTagIds": ["{tag-paw-csm}"],
+  "Assignments": [
+    {
+      "target": {
+        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+        "deviceAndAppManagementAssignmentFilterId": null,
+        "deviceAndAppManagementAssignmentFilterType": "none",
+        "groupId": "group-paw-global-devices"
+      }
+    }
+  ],
+  "TemplateDisplayName": "Microsoft Defender Firewall",
+  "TemplateId": "c53e5a9f-2eec-4175-98a1-2b3d38084b91",
+  "settingsDelta": [
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
+      "id": "114fb997-2d19-4d01-ae39-e3fd29132247",
+      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_firewallBlockStatefulFTP",
+      "valueJson": "true",
+      "value": true
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementIntegerSettingInstance",
+      "id": "be82f801-3388-4087-ae8d-cf7d0c24ffcc",
+      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_firewallIdleTimeoutForSecurityAssociationInSeconds",
+      "valueJson": "null",
+      "value": null
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
+      "id": "2fcbc412-046d-44b3-b324-5827ac941f53",
+      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_firewallPreSharedKeyEncodingMethod",
+      "valueJson": "\"deviceDefault\"",
+      "value": "deviceDefault"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
+      "id": "71a7694e-2936-46c7-87b9-c150c8c3301d",
+      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_firewallIPSecExemptionsNone",
+      "valueJson": "false",
+      "value": false
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
+      "id": "56d7db4f-d2cc-41fa-8bde-f309b703754e",
+      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_firewallIPSecExemptionsAllowNeighborDiscovery",
+      "valueJson": "false",
+      "value": false
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
+      "id": "7dfe3ac6-f670-4ca3-889e-cfb9ada1973d",
+      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_firewallIPSecExemptionsAllowICMP",
+      "valueJson": "false",
+      "value": false
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
+      "id": "b78db3c9-f824-4f68-b205-54e11d1d2f59",
+      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_firewallIPSecExemptionsAllowRouterDiscovery",
+      "valueJson": "false",
+      "value": false
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
+      "id": "24eb3005-ab21-43f5-81d3-0ad69cb4419e",
+      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_firewallIPSecExemptionsAllowDHCP",
+      "valueJson": "false",
+      "value": false
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
+      "id": "2ecc8e4c-6be5-47ea-ab43-adafc0334279",
+      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_firewallCertificateRevocationListCheckMethod",
+      "valueJson": "\"deviceDefault\"",
+      "value": "deviceDefault"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
+      "id": "b30c9419-5c41-4484-9438-d4ecd8370b37",
+      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_firewallMergeKeyingModuleSettings",
+      "valueJson": "null",
+      "value": null
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
+      "id": "4e76ba2a-5ad6-47f9-be37-5a213b27c9c1",
+      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_firewallPacketQueueingMethod",
+      "valueJson": "\"deviceDefault\"",
+      "value": "deviceDefault"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
+      "id": "fc80e1a3-08bc-4b4c-8ebf-9b5cdbd55527",
+      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_firewallProfileDomainFirewallEnabled",
+      "valueJson": "\"allowed\"",
+      "value": "allowed"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
+      "id": "ea3b8674-7c53-4191-9017-c2dae3f564a0",
+      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_firewallProfileDomainStealthModeBlocked",
+      "valueJson": "\"notConfigured\"",
+      "value": "notConfigured"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
+      "id": "53c46e09-81fa-4817-b5d1-a0ac68ab51d8",
+      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_firewallProfileDomainSecuredPacketExemptionAllowed",
+      "valueJson": "\"notConfigured\"",
+      "value": "notConfigured"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
+      "id": "39fc8b6d-3aba-4d43-9f4f-570e30b94641",
+      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_firewallProfileDomainIncomingTrafficBlocked",
+      "valueJson": "\"notConfigured\"",
+      "value": "notConfigured"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
+      "id": "5eaa1ad2-b344-4f25-a645-b8a243cb7705",
+      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_firewallProfileDomainUnicastResponsesToMulticastBroadcastsBlocked",
+      "valueJson": "\"notConfigured\"",
+      "value": "notConfigured"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
+      "id": "527b83b3-5bf2-42a9-8e6f-0a7e77e968ce",
+      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_firewallProfileDomainInboundNotificationsBlocked",
+      "valueJson": "\"blocked\"",
+      "value": "blocked"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
+      "id": "2aa4ba67-9eb6-487f-a8eb-b9e5d4c829b3",
+      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_firewallProfileDomainOutboundConnectionsBlocked",
+      "valueJson": "\"allowed\"",
+      "value": "allowed"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
+      "id": "58b6eb72-eedc-4f28-ba99-7e28eb560e81",
+      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_firewallProfileDomainInboundConnectionsBlocked",
+      "valueJson": "\"blocked\"",
+      "value": "blocked"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
+      "id": "8f15eb46-4afe-40ec-a507-d7a85420cfa2",
+      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_firewallProfileDomainAuthorizedApplicationRulesFromGroupPolicyMerged",
+      "valueJson": "\"blocked\"",
+      "value": "blocked"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
+      "id": "b5b6fedf-491e-4dfb-812d-b0b2a585bbcf",
+      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_firewallProfileDomainGlobalPortRulesFromGroupPolicyMerged",
+      "valueJson": "\"blocked\"",
+      "value": "blocked"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
+      "id": "dae4d7c1-8350-433e-b03e-d6cc29d1aed4",
+      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_firewallProfileDomainPolicyRulesFromGroupPolicyMerged",
+      "valueJson": "\"blocked\"",
+      "value": "blocked"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
+      "id": "78b7f1d6-f4fb-4f20-b1d2-c726d22cc73e",
+      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_firewallProfileDomainConnectionSecurityRulesFromGroupPolicyMerged",
+      "valueJson": "\"blocked\"",
+      "value": "blocked"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
+      "id": "d2936825-bd67-4490-b453-c0eb08347d0f",
+      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_firewallProfilePrivateFirewallEnabled",
+      "valueJson": "\"allowed\"",
+      "value": "allowed"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
+      "id": "33566006-5660-4ef4-b4d8-8108ac7b3e41",
+      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_firewallProfilePrivateStealthModeBlocked",
+      "valueJson": "\"notConfigured\"",
+      "value": "notConfigured"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
+      "id": "e31223b8-7aff-4f94-9bcd-f2d9af314a33",
+      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_firewallProfilePrivateSecuredPacketExemptionAllowed",
+      "valueJson": "\"notConfigured\"",
+      "value": "notConfigured"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
+      "id": "525302d3-b343-480f-9530-76a31aadc239",
+      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_firewallProfilePrivateIncomingTrafficBlocked",
+      "valueJson": "\"notConfigured\"",
+      "value": "notConfigured"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
+      "id": "ea274c2b-5faf-4923-a2df-f86ea12410ff",
+      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_firewallProfilePrivateUnicastResponsesToMulticastBroadcastsBlocked",
+      "valueJson": "\"notConfigured\"",
+      "value": "notConfigured"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
+      "id": "a8e70db7-060b-411e-8629-48c0bbefa1d0",
+      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_firewallProfilePrivateInboundNotificationsBlocked",
+      "valueJson": "\"blocked\"",
+      "value": "blocked"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
+      "id": "94351ddc-6f4a-4a9f-903f-406027d061e2",
+      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_firewallProfilePrivateOutboundConnectionsBlocked",
+      "valueJson": "\"allowed\"",
+      "value": "allowed"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
+      "id": "36b539a8-0da1-4896-a191-883a67ca4421",
+      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_firewallProfilePrivateInboundConnectionsBlocked",
+      "valueJson": "\"blocked\"",
+      "value": "blocked"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
+      "id": "b2f54de3-aa8f-4741-97db-523a7906a6bb",
+      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_firewallProfilePrivateAuthorizedApplicationRulesFromGroupPolicyMerged",
+      "valueJson": "\"blocked\"",
+      "value": "blocked"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
+      "id": "38faba72-1bb0-4c93-94bb-3b5e3c3a719f",
+      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_firewallProfilePrivateGlobalPortRulesFromGroupPolicyMerged",
+      "valueJson": "\"blocked\"",
+      "value": "blocked"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
+      "id": "51f18148-4b92-400f-940e-a11e16e1ec6a",
+      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_firewallProfilePrivatePolicyRulesFromGroupPolicyMerged",
+      "valueJson": "\"blocked\"",
+      "value": "blocked"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
+      "id": "728826c5-c602-4ba8-99d1-5c9aa36256f2",
+      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_firewallProfilePrivateConnectionSecurityRulesFromGroupPolicyMerged",
+      "valueJson": "\"blocked\"",
+      "value": "blocked"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
+      "id": "e66f4137-663c-479c-9ff7-a33c370d4183",
+      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_firewallProfilePublicFirewallEnabled",
+      "valueJson": "\"allowed\"",
+      "value": "allowed"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
+      "id": "5e6c0f24-3a43-4669-a781-416fabb2b2f2",
+      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_firewallProfilePublicStealthModeBlocked",
+      "valueJson": "\"notConfigured\"",
+      "value": "notConfigured"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
+      "id": "86efa685-7710-4479-80e2-4284a0db5f4e",
+      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_firewallProfilePublicSecuredPacketExemptionAllowed",
+      "valueJson": "\"notConfigured\"",
+      "value": "notConfigured"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
+      "id": "e2f369ca-cc8d-477c-b357-5ca636a8aa3b",
+      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_firewallProfilePublicIncomingTrafficBlocked",
+      "valueJson": "\"notConfigured\"",
+      "value": "notConfigured"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
+      "id": "4d2b89d0-cde8-49f5-953e-20254964c1fe",
+      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_firewallProfilePublicUnicastResponsesToMulticastBroadcastsBlocked",
+      "valueJson": "\"notConfigured\"",
+      "value": "notConfigured"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
+      "id": "97f5eb22-82d0-4af8-8afe-a7b4223a0060",
+      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_firewallProfilePublicInboundNotificationsBlocked",
+      "valueJson": "\"blocked\"",
+      "value": "blocked"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
+      "id": "8e37f9f5-17aa-4491-9325-68a0107ed3bd",
+      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_firewallProfilePublicOutboundConnectionsBlocked",
+      "valueJson": "\"blocked\"",
+      "value": "blocked"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
+      "id": "e1bfff48-77e9-43a2-8575-b465bb020f17",
+      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_firewallProfilePublicInboundConnectionsBlocked",
+      "valueJson": "\"blocked\"",
+      "value": "blocked"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
+      "id": "2c40136f-aa11-4f04-a2a9-a2aa1e9b65d8",
+      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_firewallProfilePublicAuthorizedApplicationRulesFromGroupPolicyMerged",
+      "valueJson": "\"blocked\"",
+      "value": "blocked"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
+      "id": "80d5a275-8208-4464-9770-d9c9e6044982",
+      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_firewallProfilePublicGlobalPortRulesFromGroupPolicyMerged",
+      "valueJson": "\"blocked\"",
+      "value": "blocked"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
+      "id": "f215c7da-d0ce-4636-a9b4-54f2c2c14f35",
+      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_firewallProfilePublicPolicyRulesFromGroupPolicyMerged",
+      "valueJson": "\"blocked\"",
+      "value": "blocked"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
+      "id": "e0fa3c25-85bc-4da0-9fcc-e87ec2a76191",
+      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_firewallProfilePublicConnectionSecurityRulesFromGroupPolicyMerged",
+      "valueJson": "\"blocked\"",
+      "value": "blocked"
+    }
+  ]
+}

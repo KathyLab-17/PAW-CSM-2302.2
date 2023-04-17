@@ -1,0 +1,32 @@
+{
+    "@odata.type": "#microsoft.graph.deviceHealthScript",
+    "publisher": "MCS",
+    "roleScopeTagIds": ["{tag-paw-csm}"],
+    "version": "{PAWCSMVersion}",
+    "displayName": "Remove-Microsoft-Office-Hub",
+    "description": "Removes the Microsoft Office Hub",
+    "runAsAccount": "user",
+    "enforceSignatureCheck": "false",
+    "runAs32Bit": "false",
+    "Assignments":     
+    {
+    "deviceHealthScriptAssignments": [
+      {
+        "@odata.type": "#microsoft.graph.deviceHealthScriptAssignment",
+          "target": {
+            "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+            "deviceAndAppManagementAssignmentFilterId": null,
+            "deviceAndAppManagementAssignmentFilterType": "none",
+            "groupId": "group-paw-csm-devices"
+          },
+          "runRemediationScript": true,
+          "runSchedule": {
+            "@odata.type": "microsoft.graph.deviceHealthScriptDailySchedule",
+            "interval": 1,
+            "useUtc": false,
+            "time": "10:00"
+          }
+        }
+      ]
+    }
+  }

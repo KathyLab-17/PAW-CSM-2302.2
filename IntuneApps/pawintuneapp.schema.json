@@ -1,0 +1,194 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://microsoft.com/pawintuneapp.schema.json",
+  "title": "root",
+  "type": "object",
+  "required": [
+    "appType",
+    "ruleType",
+    "returnCodeType",
+    "installExperience",
+    "packageName",
+    "displayName",
+    "description",
+    "publisher",
+    "category",
+    "logoFile",
+    "coreApp",
+    "espApp",
+    "requiredgroup",
+    "availablegroup",
+    "uninstallgroup",
+    "scopetag"
+  ],
+  "properties": {
+    "appType": {
+      "$id": "#root/appType",
+      "title": "apptype",
+      "type": "string",
+      "description": "The AppType element",
+      "defaultSnippets": [
+        {
+          "label": "MSI",
+          "body": "MSI"
+        },
+        {
+          "label": "EXE",
+          "body": "EXE"
+        },
+        {
+          "label": "PS1",
+          "body": "PS1"
+        }
+      ],
+      "pattern": "^.*$"
+    },
+    "installCmdLine": {
+      "$id": "#root/installCmdLine",
+      "title": "installCmdLine",
+      "type": "string",
+      "description": "The installCmdLine element when using the EXE or MSI AppType",
+      "pattern": "^.*$"
+    },
+    "uninstallCmdLine": {
+      "$id": "#root/uninstallCmdLine",
+      "title": "uninstallCmdLine",
+      "type": "string",
+      "description": "The uninstallCmdLine element when using the EXE or MSI AppType",
+      "pattern": "^.*$"
+    },
+    "ruleType": {
+      "$id": "#root/RuleType",
+      "title": "Ruletype",
+      "type": "string",
+      "description": "The RuleType element, Ignored if AppType is MSI",
+      "defaultSnippets": [
+        {
+          "label": "TAGFILE",
+          "body": "TAGFILE"
+        },
+        {
+          "label": "FILE",
+          "body": "FILE"
+        },
+        {
+          "label": "REGTAG",
+          "body": "REGTAG"
+        }
+      ],
+      "pattern": "^.*$"
+    },
+    "returnCodeType": {
+      "$id": "#root/ReturnCodeType",
+      "title": "Returncodetype",
+      "type": "string",
+      "description": "",
+      "default": "DEFAULT",
+      "pattern": "^.*$"
+    },
+    "installExperience": {
+      "$id": "#root/InstallExperience",
+      "title": "Installexperience",
+      "type": "string",
+      "description": "The InstallExperience element",
+      "defaultSnippets": [
+        {
+          "label": "System",
+          "body": "System"
+        },
+        {
+          "label": "User",
+          "body": "User"
+        }
+      ],
+      "pattern": "^.*$"
+    },
+    "packageName": {
+      "$id": "#root/PackageName",
+      "title": "Packagename",
+      "type": "string",
+      "description": "The PackageName element to match the name of the .PS1 script that the IntuneWinAppUtil should reference For MSI or EXE AppType - this must be the name of the MSI or executable file in the ..\\Source folder - without the .exe in the name",
+      "default": "",
+      "examples": ["Install-SetBDEPinTool"],
+      "pattern": "^.*$"
+    },
+    "displayName": {
+      "$id": "#root/displayName",
+      "title": "Displayname",
+      "type": "string",
+      "description": "The displayName shown the Intune console",
+      "default": "",
+      "examples": ["MCS PAW-CSM BitLocker Pin Tool"],
+      "pattern": "^.*$"
+    },
+    "description": {
+      "$id": "#root/Description",
+      "title": "Description",
+      "type": "string",
+      "description": "The description shown in the Intune console",
+      "default": "",
+      "examples": ["Script to allow a standard user to set a BitLocker PIN"],
+      "pattern": "^.*$"
+    },
+    "publisher": {
+      "$id": "#root/Publisher",
+      "title": "Publisher",
+      "type": "string",
+      "description": "The Publisher name shown in the Intune console",
+      "default": "",
+      "examples": ["Microsoft Consulting Services"],
+      "pattern": "^.*$"
+    },
+    "category": {
+      "$id": "#root/Category",
+      "title": "Category",
+      "type": "string",
+      "description": "The category shown in the Intune console",
+      "default": "",
+      "examples": ["Business"],
+      "pattern": "^.*$"
+    },
+    "logoFile": {
+      "$id": "#root/LogoFile",
+      "title": "Logofile",
+      "type": "string",
+      "description": "The Logo shown in Company Portal",
+      "default": "Logo.jpg",
+      "pattern": "^.*$"
+    },
+    "coreApp": {
+			"$id": "#root/coreApp",
+			"title": "coreApp",
+			"type": "boolean",
+			"default": true
+		},
+    "espApp": {
+			"$id": "#root/espApp",
+			"title": "espApp",
+			"type": "boolean",
+			"default": true
+    },
+    "requiredgroup": {
+      "$id": "#root/requiredgroup",
+      "title": "requiredgroup",
+      "type": "string",
+      "description": "The required AAD Group ID's stored in the groups.apps.json file",
+      "pattern": "^.*$"
+    },
+    "availablegroup": {
+      "$id": "#root/availablegroup",
+      "title": "availablegroup",
+      "type": "string",
+      "description": "The required AAD Group ID's stored in the groups.apps.json file",
+      "pattern": "^.*$"
+    },
+    "uninstallgroup": {
+      "$id": "#root/uninstallgroup",
+      "title": "uninstallgroup",
+      "type": "string",
+      "description": "The required AAD Group ID's stored in the groups.apps.json file",
+      "pattern": "^.*$"
+    }
+  }
+}

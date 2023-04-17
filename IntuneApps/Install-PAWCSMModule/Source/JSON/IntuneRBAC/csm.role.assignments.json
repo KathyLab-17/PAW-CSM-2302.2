@@ -1,0 +1,20 @@
+[
+  {
+    "IntuneRBACRole": "PAW-CSM-Intune-Admin",
+    "MemberAADGroup": "Customer-PAW-CSM-Intune-Admin",
+    "MemberAADGroupId": "group-customer-paw-csm-intune-admin",
+    "ScopeAADGroup": "PAW-CSM-Intune-Admin-Scope",
+    "ScopeAADGroupID": "group-paw-csm-intune-admin-scope",
+    "ScopeTag": ["{tag-paw-csm}"],
+    "Notes": ""
+  },
+  {
+    "IntuneRBACRole": "EUD-Intune-Admin",
+    "MemberAADGroup": "Customer-EUD-Intune-Admin",
+    "MemberAADGroupId": "group-customer-eud-intune-admin",
+    "ScopeAADGroup": "EUD-Intune-Admin-Scope",
+    "ScopeAADGroupID": "group-eud-intune-admin-scope",
+    "ScopeTag": ["{tag-eud}"],
+    "Notes": ""
+  }
+]

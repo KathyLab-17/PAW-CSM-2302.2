@@ -1,0 +1,37 @@
+{
+  "@odata.type": "#microsoft.graph.windows10EnrollmentCompletionPageConfiguration",
+  "displayName": "PAW-CSM-{PAWCSMVersion}-Autopilot-ESP-Profile",
+  "description": "",
+  "priority": 1,
+  "version": 6,
+  "roleScopeTagIds": ["{tag-paw-csm}"],
+  "showInstallationProgress": true,
+  "blockDeviceSetupRetryByUser": false,
+  "allowDeviceResetOnInstallFailure": true,
+  "allowLogCollectionOnInstallFailure": true,
+  "customErrorMessage": "",
+  "installProgressTimeoutInMinutes": 90,
+  "allowDeviceUseOnInstallFailure": false,
+  "selectedMobileAppIds": [
+    "MCS PAW-CSM BitLocker Pin Tool v1.5",
+    "MCS PAW-CSM Install BGInfo",
+    "MCS PAW-CSM Set Device Config",
+    "Company Portal"
+  ],
+  "trackInstallProgressForAutopilotOnly": true,
+  "disableUserStatusTrackingAfterFirstUser": true,
+  "assignments@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceEnrollmentConfigurations(\u00277d3654fb-3fea-44a4-8b71-85569eb5a142_Windows10EnrollmentCompletionPageConfiguration\u0027)/microsoft.graph.deviceEnrollmentLimitConfiguration/microsoft.graph.deviceEnrollmentPlatformRestrictionsConfiguration/microsoft.graph.deviceEnrollmentWindowsHelloForBusinessConfiguration/microsoft.graph.windows10EnrollmentCompletionPageConfiguration/microsoft.graph.deviceEnrollmentPlatformRestrictionsConfiguration/microsoft.graph.windows10EnrollmentCompletionPageConfiguration/microsoft.graph.windows10EnrollmentCompletionPageConfiguration/assignments",
+  "assignments": [
+    {
+      "id": "7d3654fb-3fea-44a4-8b71-85569eb5a142_695eb3ad-322d-4001-97dc-37297b91087e_7d3654fb-3fea-44a4-8b71-85569eb5a142",
+      "source": "direct",
+      "sourceId": "7d3654fb-3fea-44a4-8b71-85569eb5a142",
+      "target": {
+        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+        "deviceAndAppManagementAssignmentFilterId": null,
+        "deviceAndAppManagementAssignmentFilterType": "none",
+        "groupId": "group-paw-csm-devices"
+      }
+    }
+  ]
+}

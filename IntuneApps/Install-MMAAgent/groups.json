@@ -1,0 +1,32 @@
+[  
+  {
+  "DisplayName": "PAW-CSM-Apps-microsoft-mmaagent-User-Required",
+  "Description": "Group used to assign microsoft MMA agent Tool.",
+  "Id": "group-paw-csm-apps-microsoft-mmaagent-user-required",
+  "MemberRef": [],
+  "Rule": "Static",
+  "IsAssignableToRole": false,
+  "ProtectedGroup": true,
+  "IsAppGroup": false
+},
+{
+  "DisplayName": "PAW-CSM-Apps-microsoft-mmaagent-User-Available",
+  "Description": "Group used to assign microsoft MMA agent Tool.",
+  "Id": "group-paw-csm-apps-microsoft-mmaagent-user-available",
+  "MemberRef": [],
+  "Rule": "Static",
+  "IsAssignableToRole": false,
+  "ProtectedGroup": true,
+  "IsAppGroup": false
+},
+{
+  "DisplayName": "PAW-CSM-Apps-microsoft-mmaagent-User-Uninstall",
+  "Description": "Group used to assign microsoft MMA agent Tool.",
+  "Id": "group-paw-csm-apps-microsoft-mmaagent-user-uninstall",
+  "MemberRef": [],
+  "Rule": "Static",
+  "IsAssignableToRole": false,
+  "ProtectedGroup": true,
+  "IsAppGroup": false
+}
+]

@@ -1,0 +1,145 @@
+{
+  "displayName": "PAW-Global-{PAWCSMVersion}-Windows-10-above-Windows-Security-Experience",
+  "description": "",
+  "roleScopeTagIds": ["{tag-paw-csm}"],
+  "Assignments": [
+    {
+      "target": {
+        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+        "deviceAndAppManagementAssignmentFilterId": null,
+        "deviceAndAppManagementAssignmentFilterType": "none",
+        "groupId": "group-paw-global-devices"
+      }
+    }
+  ],
+  "TemplateDisplayName": "Windows Security experience",
+  "TemplateId": "da332b88-bd29-4def-a442-e0993ed08e24",
+  "settingsDelta": [
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
+      "id": "9af992e7-e43f-452b-af1e-5542292710d3",
+      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_windowsDefenderTamperProtection",
+      "valueJson": "\"enable\"",
+      "value": "enable"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
+      "id": "735f05b9-bb7b-43ce-8f1c-6fb11d567047",
+      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_defenderSecurityCenterDisableVirusUI",
+      "valueJson": "false",
+      "value": false
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
+      "id": "faa0639f-8bf1-4dd2-ab30-4554a91e7c7b",
+      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_defenderSecurityCenterDisableRansomwareUI",
+      "valueJson": "false",
+      "value": false
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
+      "id": "b27a5ed3-5d41-4b1d-bf05-bd67f4111259",
+      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_defenderSecurityCenterDisableAccountUI",
+      "valueJson": "false",
+      "value": false
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
+      "id": "dea982e9-0fa5-490d-aee3-9ae4ea2ca767",
+      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_defenderSecurityCenterDisableNetworkUI",
+      "valueJson": "false",
+      "value": false
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
+      "id": "bc324445-08e7-4327-b945-97a43b063aae",
+      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_defenderSecurityCenterDisableAppBrowserUI",
+      "valueJson": "false",
+      "value": false
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
+      "id": "d1700683-97f9-468e-bcf0-964fef691483",
+      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_defenderSecurityCenterDisableHardwareUI",
+      "valueJson": "false",
+      "value": false
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
+      "id": "0cbafb5a-72a0-45e1-ab31-50e6662d7107",
+      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_defenderSecurityCenterDisableHealthUI",
+      "valueJson": "false",
+      "value": false
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
+      "id": "1eef37b9-b9d1-401e-be39-53b17bb35821",
+      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_defenderSecurityCenterDisableFamilyUI",
+      "valueJson": "true",
+      "value": true
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
+      "id": "6f25f50e-43bb-46ee-a0cf-5a9df5b6d345",
+      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_defenderSecurityCenterNotificationsFromApp",
+      "valueJson": "\"notConfigured\"",
+      "value": "notConfigured"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
+      "id": "27fc74ed-5e70-4788-a00a-bc947082e349",
+      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_defenderSecurityCenterDisableNotificationAreaUI",
+      "valueJson": "false",
+      "value": false
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
+      "id": "be417dab-9b13-4361-aae7-552b2459b842",
+      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_defenderSecurityCenterDisableClearTpmUI",
+      "valueJson": "true",
+      "value": true
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
+      "id": "fe7c3de2-55c0-4b3b-9b8a-e81b62cdb79e",
+      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_defenderSecurityCenterDisableVulnerableTpmFirmwareUpdateUI",
+      "valueJson": "true",
+      "value": true
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
+      "id": "93b3d488-675d-4a7c-94c9-2dfef1a6af5e",
+      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_defenderSecurityCenterITContactDisplay",
+      "valueJson": "\"notConfigured\"",
+      "value": "notConfigured"
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
+      "id": "55a4cad9-5699-4ec0-9db5-50fece1bac0d",
+      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_defenderSecurityCenterOrganizationDisplayName",
+      "valueJson": "null",
+      "value": null
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
+      "id": "bffd1f60-f5e1-4ead-8f77-239228112427",
+      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_defenderSecurityCenterHelpPhone",
+      "valueJson": "null",
+      "value": null
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
+      "id": "d61f0cbd-cd14-46cf-8dd6-45833062267f",
+      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_defenderSecurityCenterHelpEmail",
+      "valueJson": "null",
+      "value": null
+    },
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
+      "id": "829fde11-c17d-4f11-827f-6657b6fccace",
+      "definitionId": "deviceConfiguration--windows10EndpointProtectionConfiguration_defenderSecurityCenterHelpURL",
+      "valueJson": "null",
+      "value": null
+    }
+  ]
+}

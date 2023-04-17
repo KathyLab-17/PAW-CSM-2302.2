@@ -1,0 +1,32 @@
+[  
+  {
+  "DisplayName": "PAW-CSM-Apps-BicepPSModule-User-Required",
+  "Description": "Group used to assign Azure Bicep PowerShell Module.",
+  "Id": "group-paw-csm-apps-BicepPSModule-user-required",
+  "MemberRef": [],
+  "Rule": "Static",
+  "IsAssignableToRole": false,
+  "ProtectedGroup": true,
+  "IsAppGroup": false
+},
+{
+  "DisplayName": "PAW-CSM-Apps-BicepPSModule-User-Available",
+  "Description": "Group used to assign Azure Bicep PowerShell Module.",
+  "Id": "group-paw-csm-apps-BicepPSModule-user-available",
+  "MemberRef": [],
+  "Rule": "Static",
+  "IsAssignableToRole": false,
+  "ProtectedGroup": true,
+  "IsAppGroup": false
+},
+{
+  "DisplayName": "PAW-CSM-Apps-BicepPSModule-User-Uninstall",
+  "Description": "Group used to assign Azure Bicep PowerShell Module.",
+  "Id": "group-paw-csm-apps-BicepPSModule-user-uninstall",
+  "MemberRef": [],
+  "Rule": "Static",
+  "IsAssignableToRole": false,
+  "ProtectedGroup": true,
+  "IsAppGroup": false
+}
+]

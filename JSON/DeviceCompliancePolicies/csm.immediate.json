@@ -1,0 +1,67 @@
+{
+  "@odata.type": "#microsoft.graph.windows10CompliancePolicy",
+  "roleScopeTagIds": ["{tag-paw-csm}"],
+  "description": "Compliance settings to apply immediately\n",
+  "displayName": "PAW-Global-{PAWCSMVersion}-Immediate",
+  "version": 1,
+  "passwordRequired": false,
+  "passwordBlockSimple": false,
+  "passwordRequiredToUnlockFromIdle": false,
+  "passwordMinutesOfInactivityBeforeLock": null,
+  "passwordExpirationDays": null,
+  "passwordMinimumLength": null,
+  "passwordMinimumCharacterSetCount": null,
+  "passwordRequiredType": "deviceDefault",
+  "passwordPreviousPasswordBlockCount": null,
+  "requireHealthyDeviceReport": false,
+  "osMinimumVersion": "10.0.18363.476",
+  "osMaximumVersion": null,
+  "mobileOsMinimumVersion": null,
+  "mobileOsMaximumVersion": null,
+  "earlyLaunchAntiMalwareDriverEnabled": false,
+  "bitLockerEnabled": false,
+  "secureBootEnabled": false,
+  "codeIntegrityEnabled": false,
+  "storageRequireEncryption": false,
+  "activeFirewallRequired": false,
+  "defenderEnabled": true,
+  "defenderVersion": null,
+  "signatureOutOfDate": false,
+  "rtpEnabled": true,
+  "antivirusRequired": true,
+  "antiSpywareRequired": false,
+  "deviceThreatProtectionEnabled": false,
+  "deviceThreatProtectionRequiredSecurityLevel": "unavailable",
+  "configurationManagerComplianceRequired": false,
+  "tpmRequired": false,
+  "deviceCompliancePolicyScript": null,
+  "validOperatingSystemBuildRanges": [],
+  "assignments": [
+    {
+      "id": "8c0104a7-7475-427a-9b0b-b65bb84036be_de94fc7c-af03-4bd7-8482-84380ff33247",
+      "source": "direct",
+      "sourceId": "8c0104a7-7475-427a-9b0b-b65bb84036be",
+      "target": {
+        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+        "deviceAndAppManagementAssignmentFilterId": null,
+        "deviceAndAppManagementAssignmentFilterType": "none",
+        "groupId": "group-paw-global-users"
+      }
+    }
+  ],
+  "scheduledActionsForRule": [
+    {
+      "id": "8c0104a7-7475-427a-9b0b-b65bb84036be",
+      "ruleName": null,
+      "scheduledActionConfigurations": [
+        {
+          "id": "59ae4e45-6495-4d33-b943-1bb01554bc6f",
+          "gracePeriodHours": 0,
+          "actionType": "block",
+          "notificationTemplateId": "00000000-0000-0000-0000-000000000000",
+          "notificationMessageCCList": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+# PAW Build pipeline
+
+trigger:
+  - none
+
+pool:
+  vmImage: windows-latest
+
+steps:
+- task: AzurePowerShell@5
+  displayName: "Obtain SPN Certificate"
+  inputs:
+    azureSubscription: '$(service-connection)'
+    ScriptType: 'FilePath'
+    ScriptPath: '.\Prepare\Cert.ps1'
+    ScriptArguments: '-vaultname $(vaultname) -certname $(certname)'
+    azurePowerShellVersion: 'LatestVersion'
+- task: PowerShell@2
+  displayName: "Install PAW dependencies"
+  inputs:
+    filePath: '.\Prepare\PAWCSM.ps1'
+
+- task: CopyFiles@2
+  displayName: "Copy PAW PowerShell Binaries"
+  inputs:
+    SourceFolder: '.\Source'
+    Contents: '**'
+    TargetFolder: 'c:\Program Files\WindowsPowerShell\Modules\PAWCSM'
+- task: CopyFiles@2
+  displayName: "Copy PAW Configuration Files"
+  inputs:
+    SourceFolder: '.\JSON'
+    Contents: '**'
+    TargetFolder: 'C:\Repo\PAWCSM\JSON'
+
+- task: CopyFiles@2
+  displayName: "Copy PAW Configuration Files"
+  inputs:
+    SourceFolder: '.\IntuneApps'
+    Contents: '**'
+    TargetFolder: 'C:\Repo\PAWCSM\IntuneApps'
+
+- task: CopyFiles@2
+  displayName: "Copy PAW Configuration Files"
+  inputs:
+    SourceFolder: '.\RemediationScripts'
+    Contents: '**'
+    TargetFolder: 'C:\Repo\PAWCSM\RemediationScripts'
+
+- task: PowerShell@2
+  displayName: "Import PAW-CSM Configuration"
+  inputs:
+    targetType: 'inline'
+    script: |
+      Import-module PAWCSM
+      Connect-MgGraph -ClientId $(appid) -TenantId $(tenantid) -CertificateThumbprint $(cert)
+      Set-ExecutionPolicy Remotesigned -Scope Process
+      $apps = Get-ChildItem C:\REPO\PAWCSM\IntuneApps -Directory | Select Name
+      foreach ($app in $apps){Import-IntuneApp -Appname $app.name}
+
+
+- task: PublishBuildArtifacts@1
+  displayName: "Collect PAW Log File"
+  inputs:
+    PathtoPublish: 'C:\Users\VssAdministrator\AppData\Local\Microsoft\PAWCSM\PAWCSM.log'
+    ArtifactName: 'PAW Log File'
+    publishLocation: 'Container'
+

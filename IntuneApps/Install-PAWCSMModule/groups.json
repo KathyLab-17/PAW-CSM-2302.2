@@ -1,0 +1,32 @@
+[  
+  {
+    "DisplayName": "PAW-CSM-Apps-PAWCSM-Mgmt-PowerShell-Module-User-Required",
+    "Description": "Group used to assign PAW-CSM PowerShell Module",
+    "Id": "group-paw-csm-apps-pawcsm-mgmt-powershell-module-user-required",
+    "MemberRef": [],
+    "Rule": "Static",
+    "IsAssignableToRole": false,
+    "ProtectedGroup": true,
+    "IsAppGroup": false
+  },
+  {
+    "DisplayName": "PAW-CSM-Apps-PAWCSM-Mgmt-PowerShell-Module-User-Available",
+    "Description": "Group used to assign PAW-CSM PowerShell Module",
+    "Id": "group-paw-csm-apps-pawcsm-mgmt-powershell-module-user-available",
+    "MemberRef": [],
+    "Rule": "Static",
+    "IsAssignableToRole": false,
+    "ProtectedGroup": true,
+    "IsAppGroup": false
+  },
+  {
+    "DisplayName": "PAW-CSM-Apps-PAWCSM-Mgmt-PowerShell-Module-User-Uninstall",
+    "Description": "Group used to assign PAW-CSM PowerShell Module",
+    "Id": "group-paw-csm-apps-pawcsm-mgmt-powershell-module-user-uninstall",
+    "MemberRef": [],
+    "Rule": "Static",
+    "IsAssignableToRole": false,
+    "ProtectedGroup": true,
+    "IsAppGroup": false
+  }
+]

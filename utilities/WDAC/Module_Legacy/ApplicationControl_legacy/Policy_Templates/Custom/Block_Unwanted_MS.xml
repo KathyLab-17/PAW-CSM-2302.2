@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SiPolicy xmlns="urn:schemas-microsoft-com:sipolicy" PolicyType="Base Policy">
+  <VersionEx>10.0.0.2</VersionEx>
+  <PlatformID>{2E07F7E4-194C-4D20-B7C9-6F44A6C5A234}</PlatformID>
+  <Rules>
+    <Rule>
+      <Option>Enabled:Unsigned System Integrity Policy</Option>
+    </Rule>
+    <Rule>
+      <Option>Enabled:Advanced Boot Options Menu</Option>
+    </Rule>
+    <Rule>
+      <Option>Enabled:UMCI</Option>
+    </Rule>
+    <Rule>
+      <Option>Enabled:Update Policy No Reboot</Option>
+    </Rule>
+  </Rules>
+  <!--EKUS-->
+  <EKUs />
+  <!--File Rules-->
+  <FileRules>
+    <Deny ID="ID_DENY_D_16D_1" FriendlyName="C:\temp\scan\ScanRepo\BlockUnwantedMS\procdump.exe FileRule" FileName="procdump" />
+    <Deny ID="ID_DENY_D_16E_1" FriendlyName="C:\temp\scan\ScanRepo\BlockUnwantedMS\psexec.exe FileRule" FileName="psexec.c" />
+    <Deny ID="ID_DENY_D17" FriendlyName="accicons.exe FileName Rule" FileName="accicons.exe" />
+    <Deny ID="ID_DENY_D18" FriendlyName="AppSharingChromeHookController.exe FileName Rule" FileName="AppSharingChromeHookController.exe" />
+    <Deny ID="ID_DENY_D19" FriendlyName="clview.exe FileName Rule" FileName="clview.exe" />
+    <Deny ID="ID_DENY_D20" FriendlyName="cnfnot32.exe FileName Rule" FileName="cnfnot32.exe" />
+    <Deny ID="ID_DENY_D21" FriendlyName="EDITOR.EXE FileName Rule" FileName="EDITOR.EXE" />
+    <Deny ID="ID_DENY_D22" FriendlyName="Excel.exe FileName Rule" FileName="Excel.exe" />
+    <Deny ID="ID_DENY_D23" FriendlyName="Graph.exe FileName Rule" FileName="Graph.exe" />
+    <Deny ID="ID_DENY_D24" FriendlyName="IEContentService.exe FileName Rule" FileName="IEContentService.exe" />
+    <Deny ID="ID_DENY_D25" FriendlyName="Lync.exe FileName Rule" FileName="Lync.exe" />
+    <Deny ID="ID_DENY_D26" FriendlyName="Lync99.exe FileName Rule" FileName="Lync99.exe" />
+    <Deny ID="ID_DENY_D27" FriendlyName="LyncHtmlConv.exe FileName Rule" FileName="LyncHtmlConv.exe" />
+    <Deny ID="ID_DENY_D28" FriendlyName="MSACCESS.EXE FileName Rule" FileName="MSACCESS.EXE" />
+    <Deny ID="ID_DENY_D29" FriendlyName="msoadfsb.exe FileName Rule" FileName="msoadfsb.exe" />
+    <Deny ID="ID_DENY_D30" FriendlyName="MSOASB.EXE FileName Rule" FileName="MSOASB.EXE" />
+    <Deny ID="ID_DENY_D31" FriendlyName="MsoEV.exe FileName Rule" FileName="MsoEV.exe" />
+    <Deny ID="ID_DENY_D32" FriendlyName="MsoHtmEd.Exe FileName Rule" FileName="MsoHtmEd.Exe" />
+    <Deny ID="ID_DENY_D33" FriendlyName="msoia.exe FileName Rule" FileName="msoia.exe" />
+    <Deny ID="ID_DENY_D34" FriendlyName="MSOSREC.EXE FileName Rule" FileName="MSOSREC.EXE" />
+    <Deny ID="ID_DENY_D35" FriendlyName="msosync.exe FileName Rule" FileName="msosync.exe" />
+    <Deny ID="ID_DENY_D36" FriendlyName="MsoTD.exe FileName Rule" FileName="MsoTD.exe" />
+    <Deny ID="ID_DENY_D37" FriendlyName="msouc.exe FileName Rule" FileName="msouc.exe" />
+    <Deny ID="ID_DENY_D38" FriendlyName="MSPUB.EXE FileName Rule" FileName="MSPUB.EXE" />
+    <Deny ID="ID_DENY_D39" FriendlyName="MSQRY32.EXE FileName Rule" FileName="MSQRY32.EXE" />
+    <Deny ID="ID_DENY_D40" FriendlyName="NameControlServer.Exe FileName Rule" FileName="NameControlServer.Exe" />
+    <Deny ID="ID_DENY_D41" FriendlyName="OcPubMgr.exe FileName Rule" FileName="OcPubMgr.exe" />
+    <Deny ID="ID_DENY_D42" FriendlyName="officeappguardWin32.exe FileName Rule" FileName="officeappguardWin32.exe" />
+    <Deny ID="ID_DENY_D43" FriendlyName="olcfg.exe FileName Rule" FileName="olcfg.exe" />
+    <Deny ID="ID_DENY_D44" FriendlyName="OneNote.exe FileName Rule" FileName="OneNote.exe" />
+    <Deny ID="ID_DENY_D45" FriendlyName="OneNoteM.exe FileName Rule" FileName="OneNoteM.exe" />
+    <Deny ID="ID_DENY_D46" FriendlyName="OrgChart.Exe FileName Rule" FileName="OrgChart.Exe" />
+    <Deny ID="ID_DENY_D47" FriendlyName="OrgWiz.exe FileName Rule" FileName="OrgWiz.exe" />
+    <Deny ID="ID_DENY_D48" FriendlyName="Outlook.exe FileName Rule" FileName="Outlook.exe" />
+    <Deny ID="ID_DENY_D49" FriendlyName="PDFREFLOW.EXE FileName Rule" FileName="PDFREFLOW.EXE" />
+    <Deny ID="ID_DENY_D50" FriendlyName="PerfBoost.exe FileName Rule" FileName="PerfBoost.exe" />
+    <Deny ID="ID_DENY_D51" FriendlyName="POWERPNT.EXE FileName Rule" FileName="POWERPNT.EXE" />
+    <Deny ID="ID_DENY_D52" FriendlyName="pptico.exe FileName Rule" FileName="pptico.exe" />
+    <Deny ID="ID_DENY_D53" FriendlyName="_Project Import.exe FileName Rule" FileName="_Project Import.exe" />
+    <Deny ID="ID_DENY_D54" FriendlyName="ProtocolHandler.exe FileName Rule" FileName="ProtocolHandler.exe" />
+    <Deny ID="ID_DENY_D55" FriendlyName="scanpst.exe FileName Rule" FileName="scanpst.exe" />
+    <Deny ID="ID_DENY_D56" FriendlyName="SDXHELPER.EXE FileName Rule" FileName="SDXHELPER.EXE" />
+    <Deny ID="ID_DENY_D57" FriendlyName="sdxhelperbgt.exe FileName Rule" FileName="sdxhelperbgt.exe" />
+    <Deny ID="ID_DENY_D58" FriendlyName="SetLang.Exe FileName Rule" FileName="SetLang.Exe" />
+    <Deny ID="ID_DENY_D59" FriendlyName="Tlimpt.exe FileName Rule" FileName="Tlimpt.exe" />
+    <Deny ID="ID_DENY_D60" FriendlyName="UcMapi.exe FileName Rule" FileName="UcMapi.exe" />
+    <Deny ID="ID_DENY_D61" FriendlyName="visicon.exe FileName Rule" FileName="visicon.exe" />
+    <Deny ID="ID_DENY_D62" FriendlyName="VISIO.EXE FileName Rule" FileName="VISIO.EXE" />
+    <Deny ID="ID_DENY_D63" FriendlyName="VPREVIEW.EXE FileName Rule" FileName="VPREVIEW.EXE" />
+    <Deny ID="ID_DENY_D64" FriendlyName="WINPROJ.EXE FileName Rule" FileName="WINPROJ.EXE" />
+    <Deny ID="ID_DENY_D65" FriendlyName="WinWord.exe FileName Rule" FileName="WinWord.exe" />
+    <Deny ID="ID_DENY_D66" FriendlyName="WordConv.exe FileName Rule" FileName="WordConv.exe" />
+    <Deny ID="ID_DENY_D67" FriendlyName="OneDrive.exe FileName Rule" FileName="OneDrive.exe" />
+    <Deny ID="ID_DENY_D68" FriendlyName="OneDriveStandaloneUpdater.exe FileName Rule" FileName="OneDriveStandaloneUpdater.exe" />
+    <Deny ID="ID_DENY_D69" FriendlyName="IEXPLORE.EXE.MUI FileName Rule" FileName="IEXPLORE.EXE.MUI" />
+    <Deny ID="ID_DENY_D70" FriendlyName="Teams.exe FileName Rule" FileName="Teams.exe" />
+  </FileRules>
+  <!--Signers-->
+  <Signers />
+  <!--Driver Signing Scenarios-->
+  <SigningScenarios>
+    <SigningScenario Value="131" ID="ID_SIGNINGSCENARIO_DRIVERS_1" FriendlyName="Auto generated policy on 06-16-2020">
+      <ProductSigners>
+        <FileRulesRef>
+        </FileRulesRef>
+      </ProductSigners>
+    </SigningScenario>
+    <SigningScenario Value="12" ID="ID_SIGNINGSCENARIO_WINDOWS" FriendlyName="Auto generated policy on 06-16-2020">
+      <ProductSigners>
+        <FileRulesRef>
+          <FileRuleRef RuleID="ID_DENY_D_16D_1" />
+          <FileRuleRef RuleID="ID_DENY_D_16E_1" />
+          <FileRuleRef RuleID="ID_DENY_D17" />
+          <FileRuleRef RuleID="ID_DENY_D18" />
+          <FileRuleRef RuleID="ID_DENY_D19" />
+          <FileRuleRef RuleID="ID_DENY_D20" />
+          <FileRuleRef RuleID="ID_DENY_D21" />
+          <FileRuleRef RuleID="ID_DENY_D22" />
+          <FileRuleRef RuleID="ID_DENY_D23" />
+          <FileRuleRef RuleID="ID_DENY_D24" />
+          <FileRuleRef RuleID="ID_DENY_D25" />
+          <FileRuleRef RuleID="ID_DENY_D26" />
+          <FileRuleRef RuleID="ID_DENY_D27" />
+          <FileRuleRef RuleID="ID_DENY_D28" />
+          <FileRuleRef RuleID="ID_DENY_D29" />
+          <FileRuleRef RuleID="ID_DENY_D30" />
+          <FileRuleRef RuleID="ID_DENY_D31" />
+          <FileRuleRef RuleID="ID_DENY_D32" />
+          <FileRuleRef RuleID="ID_DENY_D33" />
+          <FileRuleRef RuleID="ID_DENY_D34" />
+          <FileRuleRef RuleID="ID_DENY_D35" />
+          <FileRuleRef RuleID="ID_DENY_D36" />
+          <FileRuleRef RuleID="ID_DENY_D37" />
+          <FileRuleRef RuleID="ID_DENY_D38" />
+          <FileRuleRef RuleID="ID_DENY_D39" />
+          <FileRuleRef RuleID="ID_DENY_D40" />
+          <FileRuleRef RuleID="ID_DENY_D41" />
+          <FileRuleRef RuleID="ID_DENY_D42" />
+          <FileRuleRef RuleID="ID_DENY_D43" />
+          <FileRuleRef RuleID="ID_DENY_D44" />
+          <FileRuleRef RuleID="ID_DENY_D45" />
+          <FileRuleRef RuleID="ID_DENY_D46" />
+          <FileRuleRef RuleID="ID_DENY_D47" />
+          <FileRuleRef RuleID="ID_DENY_D48" />
+          <FileRuleRef RuleID="ID_DENY_D49" />
+          <FileRuleRef RuleID="ID_DENY_D50" />
+          <FileRuleRef RuleID="ID_DENY_D51" />
+          <FileRuleRef RuleID="ID_DENY_D52" />
+          <FileRuleRef RuleID="ID_DENY_D53" />
+          <FileRuleRef RuleID="ID_DENY_D54" />
+          <FileRuleRef RuleID="ID_DENY_D55" />
+          <FileRuleRef RuleID="ID_DENY_D56" />
+          <FileRuleRef RuleID="ID_DENY_D57" />
+          <FileRuleRef RuleID="ID_DENY_D58" />
+          <FileRuleRef RuleID="ID_DENY_D59" />
+          <FileRuleRef RuleID="ID_DENY_D60" />
+          <FileRuleRef RuleID="ID_DENY_D61" />
+          <FileRuleRef RuleID="ID_DENY_D62" />
+          <FileRuleRef RuleID="ID_DENY_D63" />
+          <FileRuleRef RuleID="ID_DENY_D64" />
+          <FileRuleRef RuleID="ID_DENY_D65" />
+          <FileRuleRef RuleID="ID_DENY_D66" />
+          <FileRuleRef RuleID="ID_DENY_D67" />
+          <FileRuleRef RuleID="ID_DENY_D68" />
+          <FileRuleRef RuleID="ID_DENY_D69" />
+          <FileRuleRef RuleID="ID_DENY_D70" />
+        </FileRulesRef>
+      </ProductSigners>
+    </SigningScenario>
+  </SigningScenarios>
+  <UpdatePolicySigners />
+  <CiSigners />
+  <HvciOptions>1</HvciOptions>
+  <BasePolicyID>{7B618DA5-6B32-4240-82CF-02C060FA6667}</BasePolicyID>
+  <PolicyID>{7B618DA5-6B32-4240-82CF-02C060FA6667}</PolicyID>
+  <Settings>
+    <Setting Provider="PolicyInfo" Key="Information" ValueName="Id">
+      <Value>
+        <String>{7B618DA5-6B32-4240-82CF-02C060FA6667}</String>
+      </Value>
+    </Setting>
+    <Setting Provider="PolicyInfo" Key="Information" ValueName="Name">
+      <Value>
+        <String>WDAC.VWAC-CPAW.10.0.0.2.TEMPLATE.Block_Unwanted_MS</String>
+      </Value>
+    </Setting>
+  </Settings>
+</SiPolicy>
